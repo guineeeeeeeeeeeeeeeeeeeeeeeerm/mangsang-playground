@@ -1,0 +1,15 @@
+{
+  "id": "R-0af9fef4",
+  "src": "concept:light",
+  "predicate": "is-a",
+  "dst": "concept:fixture",
+  "evidence": "전등",
+  "seen": {
+    "concept:light": "0b475f9a598c",
+    "concept:fixture": "3e7293c0b732"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

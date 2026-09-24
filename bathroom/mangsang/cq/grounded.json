@@ -5,7 +5,7 @@
     "kind": "projection",
     "media": {
       "said": [
-        "source:bath-01"
+        "source:"
       ],
       "written": [
         "README.md#"
@@ -13,7 +13,26 @@
     }
   },
   "declared": {
-    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+    "delegated": "every concept grounded in something the owner said — any source now, since the kinds were said in bath-02 and bath-03"
   },
-  "written_by": "mangsang 1.7.4"
+  "history": [
+    {
+      "text": "모든 개념이 오너가 한 말과 글 양쪽에 근거하는가?",
+      "verify": {
+        "kind": "projection",
+        "media": {
+          "said": [
+            "source:bath-01"
+          ],
+          "written": [
+            "README.md#"
+          ]
+        }
+      },
+      "declared": {
+        "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+      }
+    }
+  ],
+  "written_by": "mangsang 1.8.1"
 }

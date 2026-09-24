@@ -1,0 +1,17 @@
+{
+  "id": "every-activity-needs",
+  "text": "모든 하는 일은 무언가를 필요로 하는가?",
+  "verify": {
+    "kind": "coverage",
+    "predicate": "requires",
+    "members": {
+      "predicate": "is-a",
+      "of": "activity"
+    },
+    "as": "src"
+  },
+  "declared": {
+    "delegated": "the agent's draft after bath-03; the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.8.1"
+}

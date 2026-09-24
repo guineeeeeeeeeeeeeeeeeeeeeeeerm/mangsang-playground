@@ -18,5 +18,9 @@
   "requires": {
     "propagates": "dst->src",
     "means": "src (an activity, or the bathroom) cannot be done or had without dst (a fixture or another activity); when what dst means changes, src may no longer be doable as described"
+  },
+  "is-a": {
+    "propagates": "none",
+    "means": "src is one of the kind dst names; a kind is a concept like any other, and a change to what the kind means does not by itself stale its members"
   }
 }

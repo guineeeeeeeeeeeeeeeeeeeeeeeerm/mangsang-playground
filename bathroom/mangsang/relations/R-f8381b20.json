@@ -1,0 +1,15 @@
+{
+  "id": "R-f8381b20",
+  "src": "source:bath-03",
+  "predicate": "realizes",
+  "dst": "concept:supply",
+  "evidence": "비누·수건·휴지는 용품으로 따로",
+  "seen": {
+    "source:bath-03": "ba55a3bf1b37",
+    "concept:supply": "1d59a7636438"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

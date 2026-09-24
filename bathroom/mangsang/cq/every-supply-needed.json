@@ -1,0 +1,17 @@
+{
+  "id": "every-supply-needed",
+  "text": "모든 용품은 어떤 일이 필요로 하는가?",
+  "verify": {
+    "kind": "coverage",
+    "predicate": "requires",
+    "members": {
+      "predicate": "is-a",
+      "of": "supply"
+    },
+    "as": "dst"
+  },
+  "declared": {
+    "delegated": "the agent's draft after bath-03; the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.8.1"
+}

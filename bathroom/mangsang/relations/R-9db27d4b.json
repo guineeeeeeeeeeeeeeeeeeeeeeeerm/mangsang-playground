@@ -1,0 +1,15 @@
+{
+  "id": "R-9db27d4b",
+  "src": "concept:toileting",
+  "predicate": "is-a",
+  "dst": "concept:activity",
+  "evidence": "용변",
+  "seen": {
+    "concept:toileting": "d2de612ee2a2",
+    "concept:activity": "a25eef869b70"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

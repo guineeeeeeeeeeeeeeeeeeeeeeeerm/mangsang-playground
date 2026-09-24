@@ -1,0 +1,15 @@
+{
+  "id": "R-273400ef",
+  "src": "concept:towel",
+  "predicate": "is-a",
+  "dst": "concept:supply",
+  "evidence": "수건,",
+  "seen": {
+    "concept:towel": "9bf317ceef64",
+    "concept:supply": "1d59a7636438"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

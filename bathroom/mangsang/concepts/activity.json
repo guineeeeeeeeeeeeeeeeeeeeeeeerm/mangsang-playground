@@ -1,0 +1,10 @@
+{
+  "name": "activity",
+  "means": "화장실에서 하는 일: 손 씻기, 세수, 양치, 용변, 샤워.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-03",
+    "approval-of": "source:bath-p2"
+  },
+  "written_by": "mangsang 1.8.1"
+}

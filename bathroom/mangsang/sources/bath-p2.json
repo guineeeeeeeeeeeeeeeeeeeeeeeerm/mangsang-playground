@@ -1,0 +1,10 @@
+{
+  "id": "bath-p2",
+  "text": "무엇이 하는 일이고 무엇이 설비인지 정해 주세요. 특히 비누·수건·휴지를 설비로 볼지 용품으로 따로 둘지, 환기를 설비로 볼지 조건으로 볼지입니다.",
+  "speaker": "Claude (claude-opus-5-5)",
+  "locator": "session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent cb1febc6-2e20-468a-a789-70556b69a570 at 2026-09-24T16:14:39.285Z",
+  "replies-to": "bath-02",
+  "verbatim-from": "host transcript",
+  "written_by": "mangsang 1.8.1",
+  "excerpt": "whole sentences of the turn, the rest left out"
+}

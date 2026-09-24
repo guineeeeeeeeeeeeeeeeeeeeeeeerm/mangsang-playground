@@ -1,0 +1,15 @@
+{
+  "id": "R-1c499c62",
+  "src": "source:bath-03",
+  "predicate": "realizes",
+  "dst": "concept:fixture",
+  "evidence": "환기는 설비로 해",
+  "seen": {
+    "source:bath-03": "ba55a3bf1b37",
+    "concept:fixture": "3e7293c0b732"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

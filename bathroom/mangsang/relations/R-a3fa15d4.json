@@ -1,0 +1,15 @@
+{
+  "id": "R-a3fa15d4",
+  "src": "concept:showering",
+  "predicate": "is-a",
+  "dst": "concept:activity",
+  "evidence": "샤워.",
+  "seen": {
+    "concept:showering": "6c1a4fdf8470",
+    "concept:activity": "a25eef869b70"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "R-0aea9889",
+  "src": "source:bath-02",
+  "predicate": "realizes",
+  "dst": "concept:activity",
+  "evidence": "(가)로 가자.",
+  "seen": {
+    "source:bath-02": "82f1d47a9bb4",
+    "concept:activity": "a25eef869b70"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

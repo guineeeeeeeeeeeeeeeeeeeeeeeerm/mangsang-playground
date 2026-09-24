@@ -1,0 +1,15 @@
+{
+  "id": "R-9bb3c226",
+  "src": "README.md#분류",
+  "predicate": "realizes",
+  "dst": "concept:supply",
+  "evidence": "용품: 비누, 수건, 휴지",
+  "seen": {
+    "README.md#분류": "c3e4735a0744",
+    "concept:supply": "1d59a7636438"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "R-6b8a64ae",
+  "src": "concept:face-washing",
+  "predicate": "is-a",
+  "dst": "concept:activity",
+  "evidence": "세수",
+  "seen": {
+    "concept:face-washing": "52e0afb6de03",
+    "concept:activity": "a25eef869b70"
+  },
+  "confirmed": {
+    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}
