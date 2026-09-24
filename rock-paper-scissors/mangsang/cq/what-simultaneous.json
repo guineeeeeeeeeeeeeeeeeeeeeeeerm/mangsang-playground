@@ -1,10 +1,10 @@
 {
-  "id": "three-fingers",
-  "text": "엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?",
+  "id": "what-simultaneous",
+  "text": "동시에 냈다는 것은 무슨 뜻인가?",
   "verify": {
     "kind": "answered-by",
     "concepts": [
-      "hand"
+      "simultaneity"
     ]
   },
   "declared": {

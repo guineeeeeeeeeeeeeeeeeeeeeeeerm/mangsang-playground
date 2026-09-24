@@ -1,10 +1,11 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 7 concept(s), 15 relation(s), 14 question(s), 6 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 8 concept(s), 17 relation(s), 15 question(s), 7 source(s).
 
 ```mermaid
 flowchart LR
   n409300dd["README.md#35;가위바위보"]
+  n1715cbdf["README.md#35;동시"]
   n903f5380["README.md#35;비김"]
   n20272887["README.md#35;손"]
   n03a8a3a0["README.md#35;왜 공평한가"]
@@ -17,15 +18,17 @@ flowchart LR
   n90ecb089(["concept:hand"])
   n2758c11c(["concept:match"])
   n75345a2f(["concept:round"])
+  n692181ff(["concept:simultaneity"])
   n0dbdf882["source:rps-01"]
   n15e301fa["source:rps-02"]
+  n57568aa8["source:rps-07"]
   n903f5380 -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n2758c11c
   n15e301fa -->|"realizes"| n9acb601e
   n0dbdf882 -->|"realizes"| n90ecb089
   n0dbdf882 -->|"realizes"| n98006228
-  n03a8a3a0 -->|"realizes"| n9acb601e
-  n409300dd -->|"realizes"| n98006228
+  n03a8a3a0 -.->|"realizes (stale)"| n9acb601e
+  n409300dd -.->|"realizes (stale)"| n98006228
   n20272887 -->|"realizes"| n90ecb089
   n15e301fa -->|"realizes"| n795ca2b2
   n15e301fa -->|"realizes"| n5e204df2
@@ -34,20 +37,27 @@ flowchart LR
   n15e301fa -->|"realizes"| n2758c11c
   n15e301fa -->|"realizes"| n90ecb089
   nd86c68d9 -->|"realizes"| n795ca2b2
+  n1715cbdf -->|"realizes"| n692181ff
+  n57568aa8 -->|"realizes"| n692181ff
   n5cc0e005{{"OPEN fourth-hand: 네 번째 손을 더하면 공평함이 유지되나?"}}
   nd7f35967{{"OPEN late-player: 늦게 내는 플레이어가 있으면 어떻게 되는지?"}}
   nc2627583{{"same-hand: 두 사람이 같은 손을 내면?"}}
   nc2627583 ==>|"answered by"| n5e204df2
-  n9db3d9cf{{"OPEN three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
+  n9db3d9cf{{"three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
+  n9db3d9cf ==>|"answered by"| n90ecb089
   n0caecec2{{"OPEN three-or-more: 세 명 이상은 가위바위보를 할 수 없는지?"}}
-  n47d245c6{{"OPEN thumb-index: 엄지, 검지를 편 손은 무효인가?"}}
-  n36ace197{{"OPEN two-four-fingers: 2번째, 4번째 손가락을 편 손은 무엇인지?"}}
+  n47d245c6{{"thumb-index: 엄지, 검지를 편 손은 무효인가?"}}
+  n47d245c6 ==>|"answered by"| n90ecb089
+  n36ace197{{"two-four-fingers: 2번째, 4번째 손가락을 편 손은 무엇인지?"}}
+  n36ace197 ==>|"answered by"| n90ecb089
   na08501d4{{"what-beats-what: 무엇이 무엇을 이기나?"}}
   na08501d4 ==>|"answered by"| n795ca2b2
   n72ff044d{{"what-game: 가위바위보는 어떤 놀이인가?"}}
   n72ff044d ==>|"answered by"| n98006228
   na02614e2{{"what-hands: 낼 수 있는 손은 무엇이고 몇 가지인가?"}}
   na02614e2 ==>|"answered by"| n90ecb089
+  nf32fea97{{"what-simultaneous: 동시에 냈다는 것은 무슨 뜻인가?"}}
+  nf32fea97 ==>|"answered by"| n692181ff
   n591e7cd9{{"when-over: 승부는 언제 끝나나?"}}
   n591e7cd9 ==>|"answered by"| n75345a2f
   n591e7cd9 ==>|"answered by"| n2758c11c
@@ -79,14 +89,14 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 > 어느 손을 내도 이길 확률과 질 확률이 같다는 성질. 손의 수가 아니라 이김이 순환한다는 데서 온다.
 
 - `source:rps-02` realizes — fresh · “왜 세 손이 공평한가(순환이라 우열이 없다)”
-- `README.md#왜 공평한가` realizes — fresh · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
+- `README.md#왜 공평한가` realizes — stale · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
 
 ### game
 
 > 가위바위보: 두 사람이 동시에 손 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이.
 
 - `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
-- `README.md#가위바위보` realizes — fresh · “두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
+- `README.md#가위바위보` realizes — stale · “두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
 
 ### hand
 
@@ -110,6 +120,13 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - `README.md#판과 승부` realizes — fresh · “판은 두 사람이 손을 한 번씩 내는 단위다.”
 - `source:rps-02` realizes — fresh · “판”
 
+### simultaneity
+
+> 동시에 낸다는 것: '상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립하는 것. 서로 상대방이 무엇을 냈는지 알지 못한 채 내야 승부가 공정하기 때문에 중요하다.
+
+- `README.md#동시` realizes — fresh · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 동시에 낸 것이다.”
+- `source:rps-07` realizes — fresh · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 이는 '동시에' 냈다고 할 수 있어.”
+
 ## Questions
 
 - **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — OPEN
@@ -117,15 +134,16 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — OPEN
 - **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw
 - **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`)
-- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — OPEN
+- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — answered; answered by hand
 - **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — OPEN
-- **thumb-index** 엄지, 검지를 편 손은 무효인가? — OPEN
-- **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — OPEN
+- **thumb-index** 엄지, 검지를 편 손은 무효인가? — answered; answered by hand
+- **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — answered; answered by hand
 - **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats
-- **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game
+- **what-game** 가위바위보는 어떤 놀이인가? — FAILED; answered by game
 - **what-hands** 낼 수 있는 손은 무엇이고 몇 가지인가? — answered; answered by hand
+- **what-simultaneous** 동시에 냈다는 것은 무슨 뜻인가? — answered; answered by simultaneity
 - **when-over** 승부는 언제 끝나나? — answered; answered by round, match
-- **why-fair** 왜 세 손 사이에 우열이 없나? — answered; answered by fairness, beats
+- **why-fair** 왜 세 손 사이에 우열이 없나? — FAILED; answered by fairness, beats
 
 ## Sources
 
@@ -156,3 +174,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 ### rps-06 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
 
 > 그럼 엄지, 검지도 무효야? 손 모양 판정에 대한 내용이 있어?
+
+### rps-07 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+
+> 아니 정의가 명확하면 괜찮아. '동시'라는 개념으로 돌아오자. 가위바위보에서 플레이어가 동시에 내는 것이 중요한 이유는 서로 상대방이 무엇을 냈는지 알지 못한 채로 내 손을 내야 승부가 공정하기 때문. 그렇기 때문에 '상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 이는 '동시에' 냈다고 할 수 있어.

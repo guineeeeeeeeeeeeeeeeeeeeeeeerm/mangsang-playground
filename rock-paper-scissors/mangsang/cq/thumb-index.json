@@ -2,10 +2,13 @@
   "id": "thumb-index",
   "text": "엄지, 검지를 편 손은 무효인가?",
   "verify": {
-    "kind": "open"
+    "kind": "answered-by",
+    "concepts": [
+      "hand"
+    ]
   },
   "declared": {
     "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-06"
+    "approved-in": "source:rps-07"
   }
 }
