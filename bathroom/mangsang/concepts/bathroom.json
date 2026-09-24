@@ -2,7 +2,17 @@
   "name": "bathroom",
   "means": "세면대에서 손을 씻고 세수하고 양치하며, 대변과 소변을 보고, 샤워를 하는 공간. 들어가고 나갈 수 있어야 하고 빛이 있어야 한다.",
   "declared": {
-    "delegated": "the agent's summary of bath-01 — the explanation defines no single sentence for the bathroom; the owner has not yet confirmed or replaced it"
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-05",
+    "approval-of": "source:bath-p4"
   },
-  "written_by": "mangsang 1.8.1"
+  "history": [
+    {
+      "means": "세면대에서 손을 씻고 세수하고 양치하며, 대변과 소변을 보고, 샤워를 하는 공간. 들어가고 나갈 수 있어야 하고 빛이 있어야 한다.",
+      "declared": {
+        "delegated": "the agent's summary of bath-01 — the explanation defines no single sentence for the bathroom; the owner has not yet confirmed or replaced it"
+      }
+    }
+  ],
+  "written_by": "mangsang 1.8.3"
 }
