@@ -5,11 +5,23 @@
   "dst": "concept:activity",
   "evidence": "하는 일: 손 씻기, 세수, 양치, 용변, 샤워",
   "seen": {
-    "README.md#분류": "c3e4735a0744",
+    "README.md#분류": "40dcb8887744",
     "concept:activity": "a25eef869b70"
   },
   "confirmed": {
-    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+    "delegated": "fixture and supply were given the owner's criterion (bath-04) and supply two more members; the 분류 section gained the criterion; every quoted sentence still stands (technical, delegated)"
   },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+      },
+      "seen": {
+        "README.md#분류": "c3e4735a0744",
+        "concept:activity": "a25eef869b70"
+      },
+      "evidence": "하는 일: 손 씻기, 세수, 양치, 용변, 샤워"
+    }
+  ],
   "written_by": "mangsang 1.8.1"
 }

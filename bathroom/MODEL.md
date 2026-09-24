@@ -1,6 +1,6 @@
 # bathroom — the net
 
-Rendered from `mangsang/` by mangsang 1.8.1; the record is the source, this page is not. 23 concept(s), 86 relation(s), 15 question(s), 5 source(s).
+Rendered from `mangsang/` by mangsang 1.8.1; the record is the source, this page is not. 23 concept(s), 88 relation(s), 15 question(s), 7 source(s).
 
 ```mermaid
 flowchart LR
@@ -82,6 +82,7 @@ flowchart LR
   n031ec881 -->|"realizes"| ne1e825a8
   nfa3edb22 -->|"is-a"| n456e44c1
   n1c12a565 -->|"is-a"| n456e44c1
+  n45f0cf57 -->|"is-a"| ne1e825a8
   n4dfbe21a -->|"requires"| n85380617
   nacb6e73d -->|"is-a"| n15ae17ae
   n4dfbe21a -->|"requires"| n89ab0d95
@@ -94,6 +95,7 @@ flowchart LR
   n56cca342 -->|"realizes"| n229f382e
   n16a5f097 -->|"requires"| n1e5b56b3
   n4dfbe21a -->|"requires"| ne5051ae7
+  n8fa9c6f8 -->|"is-a"| ne1e825a8
   n229f382e -->|"is-a"| n15ae17ae
   n1c12a565 -->|"requires"| n742a44f1
   n89ab0d95 -->|"is-a"| n456e44c1
@@ -136,7 +138,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-03`, answering the agent's `source:bath-p2`)
 
 - `source:bath-02` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “(가)로 가자.”
-- `README.md#분류` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “하는 일: 손 씻기, 세수, 양치, 용변, 샤워”
+- `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “하는 일: 손 씻기, 세수, 양치, 용변, 샤워”
 - `concept:hand-washing` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “손 씻기”
 - `concept:face-washing` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “세수”
 - `concept:toileting` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “용변”
@@ -208,17 +210,17 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 ### fixture
 
-> 화장실에 설치된 설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문. 환기는 설비로 해.
+> 화장실에 설치되어 공간에 붙어 있는 것. 설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문. 환기는 설비로 해.
 
-declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-03`, answering the agent's `source:bath-p2`)
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-04`, answering the agent's `source:bath-p3`); revised 1 time(s)
 
 - `concept:floor-drain` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “바닥 배수”
 - `concept:light` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “전등”
-- `source:bath-03` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “환기는 설비로 해”
+- `source:bath-03` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “환기는 설비로 해”
 - `concept:toilet` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “변기”
 - `concept:faucet` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “수도꼭지”
 - `concept:shower` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “샤워기”
-- `README.md#분류` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문”
+- `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문”
 - `concept:ventilation` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “환기는 설비로 해.”
 - `concept:door` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “문.”
 - `concept:washbasin` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “설비: 세면대”
@@ -269,6 +271,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 - `source:bath-01` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “변기가 막혔을 때 뚫기 위한 도구도 있어야해.”
 - `concept:toilet` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “변기가 막혔을 때 뚫기 위한 도구도 있어야해.”
 - `README.md#용변` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “변기가 막혔을 때 뚫기 위한 도구도 있어야해.”
+- `concept:supply` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “뚫는 도구”
 
 ### shower
 
@@ -309,15 +312,17 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 ### supply
 
-> 비누·수건·휴지는 용품으로 따로 둔다: 비누, 수건, 휴지.
+> 설치하지 않고 놓아두거나 걸어두고 쓰는 것. 비누·수건·휴지는 용품으로 따로 둔다: 비누, 수건, 휴지, 양치 도구, 뚫는 도구.
 
-declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-03`, answering the agent's `source:bath-p2`)
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-04`, answering the agent's `source:bath-p3`); revised 1 time(s)
 
 - `concept:towel` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “수건,”
 - `concept:toilet-paper` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “휴지.”
-- `README.md#분류` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “용품: 비누, 수건, 휴지”
+- `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “용품: 비누, 수건, 휴지”
+- `concept:plunger` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “뚫는 도구”
 - `concept:soap` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “비누,”
-- `source:bath-03` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “비누·수건·휴지는 용품으로 따로”
+- `concept:tooth-care` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “양치 도구”
+- `source:bath-03` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “비누·수건·휴지는 용품으로 따로”
 
 ### toilet
 
@@ -376,6 +381,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 - `concept:tooth-brushing` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “양치를 하기 위해서는 치약과 칫솔이 필요”
 - `README.md#양치` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “치약과 칫솔이 필요하고, 물컵이 있어야 할 수도 있어.”
+- `concept:supply` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “양치 도구”
 - `source:bath-01` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “물컵이 있어야 할 수도 있어. 각각 둘 곳이 필요해.”
 
 ### towel
@@ -485,3 +491,18 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 ### bath-p2 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent cb1febc6-2e20-468a-a789-70556b69a570 at 2026-09-24T16:14:39.285Z), replying to bath-02 — grounds nothing yet
 
 > 무엇이 하는 일이고 무엇이 설비인지 정해 주세요. 특히 비누·수건·휴지를 설비로 볼지 용품으로 따로 둘지, 환기를 설비로 볼지 조건으로 볼지입니다.
+
+### bath-p3 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 207a1525-f784-4c73-9bc2-263a655d384d at 2026-09-24T16:23:36.991Z), replying to bath-03 — grounds nothing yet
+
+> 제안은 이 기준을 두 종류의 뜻으로 정하는 것입니다.
+> - **설비**: 화장실에 설치되어 공간에 붙어 있는 것
+> - **용품**: 설치하지 않고 놓아두거나 걸어두고 쓰는 것
+>
+> 그러면 뚫는 도구와 양치 도구는 용품이 되고, 새 항목이 생겨도 "설치하나?" 한 질문으로 나뉩니다.
+> 이 기준 두 문장으로 가도 될까요?
+
+## Approvals
+
+Said to approve, not to describe: each grounds no relation and is cited only by declarations signed on it.
+
+- **bath-04** — guineeeeeeeeeeeeeeeeeeeeeeeerm, replying to bath-p3 (Claude (claude-opus-5-5)): “좋아 그 기준으로 가자” — approves `concept:fixture`, `concept:supply`

@@ -1,0 +1,15 @@
+{
+  "id": "R-a5d38bf8",
+  "src": "concept:plunger",
+  "predicate": "is-a",
+  "dst": "concept:supply",
+  "evidence": "뚫는 도구",
+  "seen": {
+    "concept:plunger": "4a5b22bd06c5",
+    "concept:supply": "8cfa77416cde"
+  },
+  "confirmed": {
+    "delegated": "the owner's criterion (bath-04): not installed, kept or hung and used — tooth-care and the plunger are supplies (technical, delegated)"
+  },
+  "written_by": "mangsang 1.8.1"
+}

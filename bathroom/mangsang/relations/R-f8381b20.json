@@ -6,10 +6,22 @@
   "evidence": "비누·수건·휴지는 용품으로 따로",
   "seen": {
     "source:bath-03": "ba55a3bf1b37",
-    "concept:supply": "1d59a7636438"
+    "concept:supply": "8cfa77416cde"
   },
   "confirmed": {
-    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+    "delegated": "fixture and supply were given the owner's criterion (bath-04) and supply two more members; the 분류 section gained the criterion; every quoted sentence still stands (technical, delegated)"
   },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+      },
+      "seen": {
+        "source:bath-03": "ba55a3bf1b37",
+        "concept:supply": "1d59a7636438"
+      },
+      "evidence": "비누·수건·휴지는 용품으로 따로"
+    }
+  ],
   "written_by": "mangsang 1.8.1"
 }

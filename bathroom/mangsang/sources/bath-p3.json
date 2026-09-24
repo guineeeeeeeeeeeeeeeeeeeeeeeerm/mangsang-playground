@@ -1,0 +1,10 @@
+{
+  "id": "bath-p3",
+  "text": "제안은 이 기준을 두 종류의 뜻으로 정하는 것입니다.\n- **설비**: 화장실에 설치되어 공간에 붙어 있는 것\n- **용품**: 설치하지 않고 놓아두거나 걸어두고 쓰는 것\n\n그러면 뚫는 도구와 양치 도구는 용품이 되고, 새 항목이 생겨도 \"설치하나?\" 한 질문으로 나뉩니다.\n이 기준 두 문장으로 가도 될까요?",
+  "speaker": "Claude (claude-opus-5-5)",
+  "locator": "session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 207a1525-f784-4c73-9bc2-263a655d384d at 2026-09-24T16:23:36.991Z",
+  "replies-to": "bath-03",
+  "verbatim-from": "host transcript",
+  "written_by": "mangsang 1.8.1",
+  "excerpt": "whole sentences of the turn, the rest left out"
+}

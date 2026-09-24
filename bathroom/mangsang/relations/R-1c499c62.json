@@ -6,10 +6,22 @@
   "evidence": "환기는 설비로 해",
   "seen": {
     "source:bath-03": "ba55a3bf1b37",
-    "concept:fixture": "3e7293c0b732"
+    "concept:fixture": "285ae88b0e16"
   },
   "confirmed": {
-    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+    "delegated": "fixture and supply were given the owner's criterion (bath-04) and supply two more members; the 분류 section gained the criterion; every quoted sentence still stands (technical, delegated)"
   },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+      },
+      "seen": {
+        "source:bath-03": "ba55a3bf1b37",
+        "concept:fixture": "3e7293c0b732"
+      },
+      "evidence": "환기는 설비로 해"
+    }
+  ],
   "written_by": "mangsang 1.8.1"
 }

@@ -5,11 +5,23 @@
   "dst": "concept:fixture",
   "evidence": "설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문",
   "seen": {
-    "README.md#분류": "c3e4735a0744",
-    "concept:fixture": "3e7293c0b732"
+    "README.md#분류": "40dcb8887744",
+    "concept:fixture": "285ae88b0e16"
   },
   "confirmed": {
-    "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+    "delegated": "fixture and supply were given the owner's criterion (bath-04) and supply two more members; the 분류 section gained the criterion; every quoted sentence still stands (technical, delegated)"
   },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the agent tied each concept to the kind the owner named in bath-03 (and the activities of (가) in bath-02), quoting the kind's meaning (technical, delegated)"
+      },
+      "seen": {
+        "README.md#분류": "c3e4735a0744",
+        "concept:fixture": "3e7293c0b732"
+      },
+      "evidence": "설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문"
+    }
+  ],
   "written_by": "mangsang 1.8.1"
 }
