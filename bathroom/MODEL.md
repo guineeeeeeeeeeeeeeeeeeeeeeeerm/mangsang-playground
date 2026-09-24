@@ -1,6 +1,6 @@
 # bathroom — the net
 
-Rendered from `mangsang/` by mangsang 1.7.4; the record is the source, this page is not. 20 concept(s), 63 relation(s), 9 question(s), 3 source(s).
+Rendered from `mangsang/` by mangsang 1.8.0; the record is the source, this page is not. 20 concept(s), 63 relation(s), 9 question(s), 3 source(s).
 
 ```mermaid
 flowchart LR

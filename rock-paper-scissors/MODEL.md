@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by mangsang 1.6.0; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
+Rendered from `mangsang/` by mangsang 1.8.0; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
 
 ```mermaid
 flowchart LR

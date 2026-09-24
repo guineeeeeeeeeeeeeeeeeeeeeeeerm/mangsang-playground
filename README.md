@@ -31,4 +31,4 @@ python3 $M report --out MODEL.md
 python3 $M report --check MODEL.md                                       # 커밋한 페이지가 지금 기록과 같은가
 ```
 
-mangsang 1.7.4. `MODEL.md`가 기록보다 뒤처졌는지는 `python3 $M report --check MODEL.md`가 말한다(뒤처졌으면 exit 1).
+mangsang 1.8.0. `MODEL.md`가 기록보다 뒤처졌는지는 `python3 $M report --check MODEL.md`가 말한다(뒤처졌으면 exit 1).
