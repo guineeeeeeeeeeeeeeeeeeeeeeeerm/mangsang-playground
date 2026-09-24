@@ -1,0 +1,15 @@
+{
+  "id": "R-daf5db30",
+  "src": "source:bath-p3",
+  "predicate": "realizes",
+  "dst": "concept:fixture",
+  "evidence": "화장실에 설치되어 공간에 붙어 있는 것",
+  "seen": {
+    "source:bath-p3": "1a78e7d57d25",
+    "concept:fixture": "285ae88b0e16"
+  },
+  "confirmed": {
+    "delegated": "a meaning the agent wrote is grounded where it wrote it and where the owner approved it (technical, delegated)"
+  },
+  "written_by": "mangsang 1.9.0"
+}

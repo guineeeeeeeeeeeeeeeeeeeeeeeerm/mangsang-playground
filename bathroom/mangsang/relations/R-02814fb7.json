@@ -1,0 +1,15 @@
+{
+  "id": "R-02814fb7",
+  "src": "source:bath-p1",
+  "predicate": "realizes",
+  "dst": "concept:activity",
+  "evidence": "활동(세수·양치·용변·샤워)도 개념으로 둔다.",
+  "seen": {
+    "source:bath-p1": "0d2134c9b5f0",
+    "concept:activity": "a25eef869b70"
+  },
+  "confirmed": {
+    "delegated": "a meaning the agent wrote is grounded where it wrote it and where the owner approved it (technical, delegated)"
+  },
+  "written_by": "mangsang 1.9.0"
+}

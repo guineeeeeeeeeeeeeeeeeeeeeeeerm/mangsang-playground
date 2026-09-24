@@ -1,0 +1,15 @@
+{
+  "id": "R-04cfff50",
+  "src": "source:bath-05",
+  "predicate": "realizes",
+  "dst": "concept:bathroom",
+  "evidence": "그걸로 됐어.",
+  "seen": {
+    "source:bath-05": "3af92cb928af",
+    "concept:bathroom": "f9d7df780036"
+  },
+  "confirmed": {
+    "delegated": "a meaning the agent wrote is grounded where it wrote it and where the owner approved it (technical, delegated)"
+  },
+  "written_by": "mangsang 1.9.0"
+}

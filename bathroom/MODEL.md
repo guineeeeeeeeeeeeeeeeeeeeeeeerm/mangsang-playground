@@ -1,6 +1,6 @@
 # bathroom — the net
 
-Rendered from `mangsang/` by mangsang 1.9.0; the record is the source, this page is not. 23 concept(s), 88 relation(s), 15 question(s), 9 source(s).
+Rendered from `mangsang/` by mangsang 1.9.0; the record is the source, this page is not. 23 concept(s), 92 relation(s), 15 question(s), 9 source(s).
 
 ```mermaid
 flowchart LR
@@ -137,6 +137,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-03`, answering the agent's `source:bath-p2`)
 
+- `source:bath-p1` realizes — fresh · delegated: a meaning the agent wrote is grounded where it wrote it and where the owner a… · “활동(세수·양치·용변·샤워)도 개념으로 둔다.”
 - `source:bath-02` realizes — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “(가)로 가자.”
 - `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “하는 일: 손 씻기, 세수, 양치, 용변, 샤워”
 - `concept:hand-washing` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “손 씻기”
@@ -162,13 +163,14 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-05`, answering the agent's `source:bath-p4`); revised 1 time(s)
 
+- `source:bath-05` realizes — fresh · delegated: a meaning the agent wrote is grounded where it wrote it and where the owner a… · “그걸로 됐어.”
 - `concept:face-washing` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “세수하고”
 - `concept:showering` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “화장실에서 샤워를 하는 것도 가능해야해.”
+- `source:bath-p4` realizes — fresh · delegated: a meaning the agent wrote is grounded where it wrote it and where the owner a… · “세면대에서 손을 씻고 세수하고 양치하며, 대변과 소변을 보고, 샤워를 하는 공간.”
 - `concept:door` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “공간에 들어가고 나갈 수 있어야 하므로 문이 있어야해.”
 - `concept:tooth-brushing` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “양치하며”
 - `concept:toileting` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “화장실에서는 대변과 소변을 봐야해.”
 - `concept:hand-washing` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “세면대에서 손을 씻고”
-- `source:bath-01` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “화장실 설명을 시작할게.”
 - `README.md#화장실` realizes — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “화장실에서 하는 일과 그 일에 필요한 것에 대한 설명이다.”
 - `concept:light` requires — fresh · delegated: the agent tied the owner's sentences to the concepts they state, quoting each… · “빛이 있어야 하므로 전등이 있어야해.”
 
@@ -223,6 +225,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-04`, answer
 - `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “설비: 세면대, 수도꼭지, 세면대 배수, 변기, 샤워기, 바닥 배수, 환기, 전등, 문”
 - `concept:ventilation` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “환기는 설비로 해.”
 - `concept:door` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “문.”
+- `source:bath-p3` realizes — fresh · delegated: a meaning the agent wrote is grounded where it wrote it and where the owner a… · “화장실에 설치되어 공간에 붙어 있는 것”
 - `concept:washbasin` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “설비: 세면대”
 - `concept:basin-drain` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “세면대 배수”
 
@@ -319,6 +322,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-04`, answer
 - `concept:towel` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “수건,”
 - `concept:toilet-paper` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “휴지.”
 - `README.md#분류` realizes — fresh · delegated: fixture and supply were given the owner's criterion (bath-04) and supply two … · re-confirmed 1 time(s) · “용품: 비누, 수건, 휴지”
+- `source:bath-p3` realizes — fresh · delegated: a meaning the agent wrote is grounded where it wrote it and where the owner a… · “설치하지 않고 놓아두거나 걸어두고 쓰는 것”
 - `concept:plunger` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “뚫는 도구”
 - `concept:soap` is-a — fresh · delegated: the agent tied each concept to the kind the owner named in bath-03 (and the a… · “비누,”
 - `concept:tooth-care` is-a — fresh · delegated: the owner's criterion (bath-04): not installed, kept or hung and used — tooth… · “양치 도구”
@@ -464,7 +468,11 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 > 비누·수건·휴지는 용품으로 따로, 환기는 설비로 해
 
-### bath-p1 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 48b9fb49-d115-45e2-9e33-b6ac57867046 at 2026-09-24T15:47:44.891Z), replying to bath-01 — grounds nothing yet
+### bath-05 — guineeeeeeeeeeeeeeeeeeeeeeeerm (session d70eaef1-8a25-4059-9853-68c3c9af45e1, person cf39349d-4db3-4275-ab8d-3166a24cd50c at 2026-09-24T16:34:49.498Z), replying to bath-p4
+
+> 그걸로 됐어.
+
+### bath-p1 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 48b9fb49-d115-45e2-9e33-b6ac57867046 at 2026-09-24T15:47:44.891Z), replying to bath-01
 
 > | 이름 | 뜻 (원문에서) |
 > |---|---|
@@ -492,7 +500,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 
 > 무엇이 하는 일이고 무엇이 설비인지 정해 주세요. 특히 비누·수건·휴지를 설비로 볼지 용품으로 따로 둘지, 환기를 설비로 볼지 조건으로 볼지입니다.
 
-### bath-p3 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 207a1525-f784-4c73-9bc2-263a655d384d at 2026-09-24T16:23:36.991Z), replying to bath-03 — grounds nothing yet
+### bath-p3 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 207a1525-f784-4c73-9bc2-263a655d384d at 2026-09-24T16:23:36.991Z), replying to bath-03
 
 > 제안은 이 기준을 두 종류의 뜻으로 정하는 것입니다.
 > - **설비**: 화장실에 설치되어 공간에 붙어 있는 것
@@ -501,7 +509,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 > 그러면 뚫는 도구와 양치 도구는 용품이 되고, 새 항목이 생겨도 "설치하나?" 한 질문으로 나뉩니다.
 > 이 기준 두 문장으로 가도 될까요?
 
-### bath-p4 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 949fd8a2-e666-44b3-acf8-ed7b75d90e01 at 2026-09-24T16:31:50.359Z), replying to bath-04 — grounds nothing yet
+### bath-p4 — Claude (claude-opus-5-5) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 949fd8a2-e666-44b3-acf8-ed7b75d90e01 at 2026-09-24T16:31:50.359Z), replying to bath-04
 
 > 설명에 "화장실은 ~이다"라는 문장이 없어서, 제가 "세면대에서 손을 씻고 세수하고 양치하며, 대변과 소변을 보고, 샤워를 하는 공간. 들어가고 나갈 수 있어야 하고 빛이 있어야 한다."라고 써서 `delegated`로 선언했습니다.
 
@@ -510,4 +518,3 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:bath-02`, answer
 Said to approve, not to describe: each grounds no relation and is cited only by declarations signed on it.
 
 - **bath-04** — guineeeeeeeeeeeeeeeeeeeeeeeerm, replying to bath-p3 (Claude (claude-opus-5-5)): “좋아 그 기준으로 가자” — approves `concept:fixture`, `concept:supply`
-- **bath-05** — guineeeeeeeeeeeeeeeeeeeeeeeerm, replying to bath-p4 (Claude (claude-opus-5-5)): “그걸로 됐어.” — approves `concept:bathroom`

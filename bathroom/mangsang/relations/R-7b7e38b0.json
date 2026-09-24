@@ -1,0 +1,15 @@
+{
+  "id": "R-7b7e38b0",
+  "src": "source:bath-p4",
+  "predicate": "realizes",
+  "dst": "concept:bathroom",
+  "evidence": "세면대에서 손을 씻고 세수하고 양치하며, 대변과 소변을 보고, 샤워를 하는 공간.",
+  "seen": {
+    "source:bath-p4": "a21e7a475d72",
+    "concept:bathroom": "f9d7df780036"
+  },
+  "confirmed": {
+    "delegated": "a meaning the agent wrote is grounded where it wrote it and where the owner approved it (technical, delegated)"
+  },
+  "written_by": "mangsang 1.9.0"
+}

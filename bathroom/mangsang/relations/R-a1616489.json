@@ -1,0 +1,15 @@
+{
+  "id": "R-a1616489",
+  "src": "source:bath-p3",
+  "predicate": "realizes",
+  "dst": "concept:supply",
+  "evidence": "설치하지 않고 놓아두거나 걸어두고 쓰는 것",
+  "seen": {
+    "source:bath-p3": "1a78e7d57d25",
+    "concept:supply": "8cfa77416cde"
+  },
+  "confirmed": {
+    "delegated": "a meaning the agent wrote is grounded where it wrote it and where the owner approved it (technical, delegated)"
+  },
+  "written_by": "mangsang 1.9.0"
+}
