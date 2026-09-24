@@ -5,10 +5,10 @@
   "dst": "concept:simultaneity",
   "evidence": "'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 동시에 낸 것이다.",
   "seen": {
-    "README.md#동시": "e6054c3002f5",
+    "README.md#동시": "a824d25ac53b",
     "concept:simultaneity": "0d42dfadd954"
   },
   "confirmed": {
-    "delegated": "the section is the owner's own words from rps-07 (technical, delegated)"
+    "delegated": "a section was appended after them; the quoted sentences stand unchanged (technical, delegated)"
   }
 }

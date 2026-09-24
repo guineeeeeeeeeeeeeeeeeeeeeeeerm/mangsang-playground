@@ -1,0 +1,14 @@
+{
+  "id": "R-eadf6447",
+  "src": "README.md#무효",
+  "predicate": "realizes",
+  "dst": "concept:void",
+  "evidence": "동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.",
+  "seen": {
+    "README.md#무효": "88f27340e565",
+    "concept:void": "ca4aeabfb183"
+  },
+  "confirmed": {
+    "delegated": "the section is the owner's own words from rps-08 (technical, delegated)"
+  }
+}

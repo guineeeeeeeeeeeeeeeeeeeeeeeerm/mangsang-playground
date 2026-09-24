@@ -1,10 +1,9 @@
 {
-  "id": "late-player",
-  "text": "늦게 내는 플레이어가 있으면 어떻게 되는지?",
+  "id": "void-round",
+  "text": "무효인 판은 어떻게 다루나?",
   "verify": {
     "kind": "answered-by",
     "concepts": [
-      "simultaneity",
       "void"
     ]
   },

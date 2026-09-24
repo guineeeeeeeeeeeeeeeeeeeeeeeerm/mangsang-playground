@@ -5,10 +5,10 @@
   "dst": "concept:game",
   "evidence": "두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.",
   "seen": {
-    "README.md#가위바위보": "cb2a6fed87ce",
+    "README.md#가위바위보": "5f68a81f7a44",
     "concept:game": "b9b650066ce0"
   },
   "confirmed": {
-    "delegated": "a section was appended after them: the title section spans the whole file and the last section gained a neighbour; both quoted sentences stand unchanged (technical, delegated)"
+    "delegated": "a section was appended after them; the quoted sentences stand unchanged (technical, delegated)"
   }
 }
