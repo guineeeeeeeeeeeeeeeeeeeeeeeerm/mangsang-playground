@@ -5,10 +5,23 @@
   "dst": "concept:game",
   "evidence": "가위바위보에 대해 설명하고",
   "seen": {
-    "source:rps-01": "4ac238ede409",
+    "source:rps-01": "07964b60df02",
     "concept:game": "111c5c378a59"
   },
   "confirmed": {
-    "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
-  }
+    "delegated": "the source was re-kept as an excerpt of the same turn; every quote still stands in it word for word (technical, delegated)"
+  },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
+      },
+      "seen": {
+        "source:rps-01": "4ac238ede409",
+        "concept:game": "111c5c378a59"
+      },
+      "evidence": "가위바위보에 대해 설명하고"
+    }
+  ],
+  "written_by": "mangsang 1.9.0"
 }

@@ -5,10 +5,23 @@
   "dst": "concept:match",
   "evidence": "승부 방식(단판/삼세판)",
   "seen": {
-    "source:rps-02": "08b1e8d4d38b",
+    "source:rps-02": "f97d87adfe45",
     "concept:match": "314c7a49e310"
   },
   "confirmed": {
-    "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
-  }
+    "delegated": "the source was re-kept as an excerpt of the same turn; every quote still stands in it word for word (technical, delegated)"
+  },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
+      },
+      "seen": {
+        "source:rps-02": "08b1e8d4d38b",
+        "concept:match": "314c7a49e310"
+      },
+      "evidence": "승부 방식(단판/삼세판)"
+    }
+  ],
+  "written_by": "mangsang 1.9.0"
 }

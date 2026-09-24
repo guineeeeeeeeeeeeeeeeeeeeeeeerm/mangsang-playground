@@ -5,10 +5,23 @@
   "dst": "concept:hand",
   "evidence": "가위바위보에 대해 설명하고",
   "seen": {
-    "source:rps-01": "4ac238ede409",
+    "source:rps-01": "07964b60df02",
     "concept:hand": "fd345e6bc53e"
   },
   "confirmed": {
-    "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
-  }
+    "delegated": "the source was re-kept as an excerpt of the same turn; every quote still stands in it word for word (technical, delegated)"
+  },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
+      },
+      "seen": {
+        "source:rps-01": "4ac238ede409",
+        "concept:hand": "fd345e6bc53e"
+      },
+      "evidence": "가위바위보에 대해 설명하고"
+    }
+  ],
+  "written_by": "mangsang 1.9.0"
 }

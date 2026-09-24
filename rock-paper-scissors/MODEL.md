@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by mangsang 1.8.0; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
+Rendered from `mangsang/` by mangsang 1.9.0; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
 
 ```mermaid
 flowchart LR
@@ -83,7 +83,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
 
-- `source:rps-02` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “이김 관계(순환)”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “이김 관계(순환)”
 - `README.md#이김` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “이김은 순환한다: 가위는 보를 이기고, 바위는 가위를 이기고, 보는 바위를 이긴다.”
 
 ### draw
@@ -93,7 +93,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 - `README.md#비김` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “두 사람이 같은 손을 내면 비긴다.”
-- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “비김”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “비김”
 - `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고”
 
 ### elimination
@@ -111,7 +111,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
 
-- `source:rps-02` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “왜 세 손이 공평한가(순환이라 우열이 없다)”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “왜 세 손이 공평한가(순환이라 우열이 없다)”
 - `README.md#왜 공평한가` realizes — fresh · delegated: a section was appended after them: the title section spans the whole file and… · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
 
 ### game
@@ -121,7 +121,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 - `README.md#여럿이 할 때` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “가위바위보는 두 명 이상이면 할 수 있다.”
-- `source:rps-01` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “가위바위보에 대해 설명하고”
+- `source:rps-01` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “가위바위보에 대해 설명하고”
 - `README.md#가위바위보` realizes — fresh · delegated: mangsang 1.6.0 cuts the title heading's section at the next heading instead o… · re-confirmed 1 time(s) · “두 명 이상이 동시에 손 모양 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
 - `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “가위바위보는 두명 이상이면 플레이 가능”
 
@@ -131,9 +131,9 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-10`)
 
-- `source:rps-01` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “가위바위보에 대해 설명하고”
+- `source:rps-01` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “가위바위보에 대해 설명하고”
 - `README.md#손` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “손은 셋이다: 가위, 바위, 보.”
-- `source:rps-02` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “손(가위·바위·보)”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “손(가위·바위·보)”
 
 ### match
 
@@ -143,7 +143,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 - `README.md#판과 승부` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “삼세판이면 먼저 두 판을 이긴 쪽이 이긴다.”
 - `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “세명 이상일때는 보통 한 판으로 승부를 낸다”
-- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “승부 방식(단판/삼세판)”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “승부 방식(단판/삼세판)”
 
 ### round
 
@@ -152,7 +152,7 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
 
 - `README.md#판과 승부` realizes — fresh · delegated: the round's sentence now covers any number of players, as the owner said in r… · “판은 모든 플레이어가 손을 한 번씩 내는 데서 시작해 승자 한 명이 남을 때까지 이어지는 단위다.”
-- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “판”
+- `source:rps-02` realizes — fresh · delegated: the source was re-kept as an excerpt of the same turn; every quote still stan… · re-confirmed 1 time(s) · “판”
 
 ### simultaneity
 
@@ -197,11 +197,11 @@ declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-08`)
 
 ## Sources
 
-### rps-01 — guineeeeeeeeeeeeeeeeeeeeeeeerm (Claude Code session d70eaef1-8a25-4059-9853-68c3c9af45e1, 2026-09-24 (KST evening))
+### rps-01 — guineeeeeeeeeeeeeeeeeeeeeeeerm (session d70eaef1-8a25-4059-9853-68c3c9af45e1, person 0c4b3e0c-bb9a-44b5-8751-230f318fb529 at 2026-09-24T13:04:27.131Z)
 
 > - 첫 프로젝트로는 가위바위보에 대해 설명하고 이를 머메이드로 보는 것.
 
-### rps-02 — Claude (claude-fable-5-1) (the same session, the proposal's section on the scenario), replying to rps-01
+### rps-02 — Claude (claude-fable-5-1) (session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 09d6ca6b-b172-407f-bc9b-43541b6faac6 at 2026-09-24T13:05:31.680Z), replying to rps-01
 
 > - **개념**: 손(가위·바위·보), 이김 관계(순환), 비김, 판, 승부 방식(단판/삼세판).
 > - **질문(CQ)**: "무엇이 무엇을 이기나?", "같은 손이면?", "왜 세 손이 공평한가(순환이라 우열이 없다)?", "승부는 언제 끝나나?" 등.

@@ -2,7 +2,9 @@
   "id": "rps-02",
   "text": "- **개념**: 손(가위·바위·보), 이김 관계(순환), 비김, 판, 승부 방식(단판/삼세판).\n- **질문(CQ)**: \"무엇이 무엇을 이기나?\", \"같은 손이면?\", \"왜 세 손이 공평한가(순환이라 우열이 없다)?\", \"승부는 언제 끝나나?\" 등.",
   "speaker": "Claude (claude-fable-5-1)",
-  "locator": "the same session, the proposal's section on the scenario",
+  "locator": "session d70eaef1-8a25-4059-9853-68c3c9af45e1, agent 09d6ca6b-b172-407f-bc9b-43541b6faac6 at 2026-09-24T13:05:31.680Z",
   "replies-to": "rps-01",
-  "excerpt": "whole sentences of the turn, the rest left out"
+  "verbatim-from": "host transcript",
+  "excerpt": "whole sentences of the turn, the rest left out",
+  "written_by": "mangsang 1.9.0"
 }

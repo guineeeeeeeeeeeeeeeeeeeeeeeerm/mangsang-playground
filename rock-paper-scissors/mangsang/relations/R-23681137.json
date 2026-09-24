@@ -5,10 +5,23 @@
   "dst": "concept:fairness",
   "evidence": "왜 세 손이 공평한가(순환이라 우열이 없다)",
   "seen": {
-    "source:rps-02": "08b1e8d4d38b",
+    "source:rps-02": "f97d87adfe45",
     "concept:fairness": "091147f07961"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
-  }
+    "delegated": "the source was re-kept as an excerpt of the same turn; every quote still stands in it word for word (technical, delegated)"
+  },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+      },
+      "seen": {
+        "source:rps-02": "08b1e8d4d38b",
+        "concept:fairness": "091147f07961"
+      },
+      "evidence": "왜 세 손이 공평한가(순환이라 우열이 없다)"
+    }
+  ],
+  "written_by": "mangsang 1.9.0"
 }

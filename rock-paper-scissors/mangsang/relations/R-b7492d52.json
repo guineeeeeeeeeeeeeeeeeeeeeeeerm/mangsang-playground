@@ -5,10 +5,23 @@
   "dst": "concept:hand",
   "evidence": "손(가위·바위·보)",
   "seen": {
-    "source:rps-02": "08b1e8d4d38b",
+    "source:rps-02": "f97d87adfe45",
     "concept:hand": "fd345e6bc53e"
   },
   "confirmed": {
-    "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
-  }
+    "delegated": "the source was re-kept as an excerpt of the same turn; every quote still stands in it word for word (technical, delegated)"
+  },
+  "history": [
+    {
+      "confirmed": {
+        "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
+      },
+      "seen": {
+        "source:rps-02": "08b1e8d4d38b",
+        "concept:hand": "fd345e6bc53e"
+      },
+      "evidence": "손(가위·바위·보)"
+    }
+  ],
+  "written_by": "mangsang 1.9.0"
 }
