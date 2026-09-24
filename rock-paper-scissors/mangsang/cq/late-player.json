@@ -1,0 +1,11 @@
+{
+  "id": "late-player",
+  "text": "늦게 내는 플레이어가 있으면 어떻게 되는지?",
+  "verify": {
+    "kind": "open"
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-04"
+  }
+}

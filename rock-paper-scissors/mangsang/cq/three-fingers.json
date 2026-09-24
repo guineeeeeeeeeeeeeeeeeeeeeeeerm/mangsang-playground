@@ -1,0 +1,14 @@
+{
+  "id": "three-fingers",
+  "text": "엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "hand"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-04"
+  }
+}

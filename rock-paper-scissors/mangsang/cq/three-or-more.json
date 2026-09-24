@@ -1,0 +1,11 @@
+{
+  "id": "three-or-more",
+  "text": "세 명 이상은 가위바위보를 할 수 없는지?",
+  "verify": {
+    "kind": "open"
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-04"
+  }
+}
