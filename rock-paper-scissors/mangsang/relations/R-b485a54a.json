@@ -1,0 +1,14 @@
+{
+  "id": "R-b485a54a",
+  "src": "source:rps-12",
+  "predicate": "realizes",
+  "dst": "concept:elimination",
+  "evidence": "승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함",
+  "seen": {
+    "source:rps-12": "b3c2c254bf6f",
+    "concept:elimination": "2c67c773b552"
+  },
+  "confirmed": {
+    "delegated": "the sections and the concepts are the owner's words from rps-12 (technical, delegated)"
+  }
+}

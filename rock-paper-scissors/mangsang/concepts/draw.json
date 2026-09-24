@@ -1,8 +1,8 @@
 {
   "name": "draw",
-  "means": "두 사람이 같은 손을 낸 판. 승부가 나지 않아 다시 내고, 승부에 세지 않는다.",
+  "means": "낸 손의 분류가 둘로 나뉘지 않은 판 — 모두 같은 손이거나 세 손이 다 나온 경우. 승부가 나지 않아 다시 내고, 승부에 세지 않는다.",
   "declared": {
     "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-03"
+    "approved-in": "source:rps-12"
   }
 }

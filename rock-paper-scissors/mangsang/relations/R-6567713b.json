@@ -6,9 +6,9 @@
   "evidence": "비김",
   "seen": {
     "source:rps-02": "08b1e8d4d38b",
-    "concept:draw": "3a98484dae90"
+    "concept:draw": "a9fc9460f081"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+    "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "name": "elimination",
+  "means": "여럿이 할 때 승자를 가리는 방식: 모든 플레이어가 동시에 낸 손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고, 승리한 집단끼리 다시 승부를 이어 나가기를 반복하며, 승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다. 두 명 승부도 이 규칙의 경우다.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-12"
+  }
+}

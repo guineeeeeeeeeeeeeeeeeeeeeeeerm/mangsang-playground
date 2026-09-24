@@ -3,12 +3,12 @@
   "src": "README.md#가위바위보",
   "predicate": "realizes",
   "dst": "concept:game",
-  "evidence": "두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.",
+  "evidence": "두 명 이상이 동시에 손 모양 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이다.",
   "seen": {
-    "README.md#가위바위보": "031818794083",
-    "concept:game": "b9b650066ce0"
+    "README.md#가위바위보": "73504f014884",
+    "concept:game": "111c5c378a59"
   },
   "confirmed": {
-    "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
+    "delegated": "the title sentence now says two or more, as the owner said in rps-12 (technical, delegated)"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "R-6234af94",
+  "src": "README.md#여럿이 할 때",
+  "predicate": "realizes",
+  "dst": "concept:elimination",
+  "evidence": "승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다.",
+  "seen": {
+    "README.md#여럿이 할 때": "cfa1f1f9dce9",
+    "concept:elimination": "2c67c773b552"
+  },
+  "confirmed": {
+    "delegated": "the sections and the concepts are the owner's words from rps-12 (technical, delegated)"
+  }
+}

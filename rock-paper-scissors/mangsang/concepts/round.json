@@ -1,8 +1,8 @@
 {
   "name": "round",
-  "means": "두 사람이 손을 한 번씩 내는 단위.",
+  "means": "모든 플레이어가 손을 한 번씩 내는 데서 시작해, 승리한 집단끼리 되풀이하여 승자 한 명이 남을 때까지 이어지는 단위.",
   "declared": {
     "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-03"
+    "approved-in": "source:rps-12"
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "game",
-  "means": "가위바위보: 두 사람이 동시에 손 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이.",
+  "means": "두 명 이상이 동시에 손 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이.",
   "declared": {
     "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-03"
+    "approved-in": "source:rps-12"
   }
 }

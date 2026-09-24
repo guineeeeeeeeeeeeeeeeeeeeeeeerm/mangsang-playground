@@ -1,11 +1,10 @@
 {
-  "id": "three-or-more",
-  "text": "세 명 이상은 가위바위보를 할 수 없는지?",
+  "id": "many-best-of",
+  "text": "세 명 이상일 때도 삼세판을 하나?",
   "verify": {
     "kind": "answered-by",
     "concepts": [
-      "game",
-      "elimination"
+      "match"
     ]
   },
   "declared": {

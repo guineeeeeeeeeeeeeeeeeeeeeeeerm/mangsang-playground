@@ -1,0 +1,14 @@
+{
+  "id": "R-809d0d6e",
+  "src": "source:rps-12",
+  "predicate": "realizes",
+  "dst": "concept:match",
+  "evidence": "세명 이상일때는 보통 한 판으로 승부를 낸다",
+  "seen": {
+    "source:rps-12": "b3c2c254bf6f",
+    "concept:match": "314c7a49e310"
+  },
+  "confirmed": {
+    "delegated": "the sections and the concepts are the owner's words from rps-12 (technical, delegated)"
+  }
+}

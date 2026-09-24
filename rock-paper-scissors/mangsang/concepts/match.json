@@ -1,8 +1,8 @@
 {
   "name": "match",
-  "means": "승부가 끝나는 방식. 단판은 비기지 않은 첫 판의 승자가, 삼세판은 먼저 두 판을 이긴 쪽이 이긴다.",
+  "means": "승부가 끝나는 방식. 단판은 비기지 않은 첫 판의 승자가, 삼세판은 먼저 두 판을 이긴 쪽이 이긴다. 세 명 이상일 때는 보통 한 판으로 승부를 낸다.",
   "declared": {
     "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-03"
+    "approved-in": "source:rps-12"
   }
 }

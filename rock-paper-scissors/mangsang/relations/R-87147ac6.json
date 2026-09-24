@@ -1,0 +1,14 @@
+{
+  "id": "R-87147ac6",
+  "src": "source:rps-12",
+  "predicate": "realizes",
+  "dst": "concept:game",
+  "evidence": "가위바위보는 두명 이상이면 플레이 가능",
+  "seen": {
+    "source:rps-12": "b3c2c254bf6f",
+    "concept:game": "111c5c378a59"
+  },
+  "confirmed": {
+    "delegated": "the sections and the concepts are the owner's words from rps-12 (technical, delegated)"
+  }
+}

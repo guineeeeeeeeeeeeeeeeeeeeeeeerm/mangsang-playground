@@ -1,0 +1,14 @@
+{
+  "id": "R-be835b77",
+  "src": "source:rps-12",
+  "predicate": "realizes",
+  "dst": "concept:draw",
+  "evidence": "손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고",
+  "seen": {
+    "source:rps-12": "b3c2c254bf6f",
+    "concept:draw": "a9fc9460f081"
+  },
+  "confirmed": {
+    "delegated": "the sections and the concepts are the owner's words from rps-12 (technical, delegated)"
+  }
+}

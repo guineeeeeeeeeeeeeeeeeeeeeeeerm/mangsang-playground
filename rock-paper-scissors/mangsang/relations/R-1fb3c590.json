@@ -5,10 +5,10 @@
   "dst": "concept:match",
   "evidence": "삼세판이면 먼저 두 판을 이긴 쪽이 이긴다.",
   "seen": {
-    "README.md#판과 승부": "f72826270a71",
-    "concept:match": "c7b288864099"
+    "README.md#판과 승부": "36896fe63b30",
+    "concept:match": "314c7a49e310"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+    "delegated": "the concepts' meanings were widened from two players to any number (rps-12); every quoted sentence still stands in its text (technical, delegated)"
   }
 }

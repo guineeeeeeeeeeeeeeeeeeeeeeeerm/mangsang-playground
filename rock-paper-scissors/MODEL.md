@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 9 concept(s), 21 relation(s), 16 question(s), 11 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
 
 ```mermaid
 flowchart LR
@@ -9,11 +9,13 @@ flowchart LR
   n5967b240["README.md#35;무효"]
   n903f5380["README.md#35;비김"]
   n20272887["README.md#35;손"]
+  n5a003516["README.md#35;여럿이 할 때"]
   n03a8a3a0["README.md#35;왜 공평한가"]
   nd86c68d9["README.md#35;이김"]
   n84fab4bc["README.md#35;판과 승부"]
   n795ca2b2(["concept:beats"])
   n5e204df2(["concept:draw"])
+  n0e453a44(["concept:elimination"])
   n9acb601e(["concept:fairness"])
   n98006228(["concept:game"])
   n90ecb089(["concept:hand"])
@@ -26,23 +28,30 @@ flowchart LR
   n57568aa8["source:rps-07"]
   nc02e2235["source:rps-08"]
   na67fae6e["source:rps-09"]
+  n959242df["source:rps-12"]
   n903f5380 -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n2758c11c
   n15e301fa -->|"realizes"| n9acb601e
+  n5a003516 -->|"realizes"| n98006228
   n0dbdf882 -->|"realizes"| n90ecb089
   n0dbdf882 -->|"realizes"| n98006228
   n03a8a3a0 -->|"realizes"| n9acb601e
   n409300dd -->|"realizes"| n98006228
   n20272887 -->|"realizes"| n90ecb089
   n15e301fa -->|"realizes"| n795ca2b2
+  n5a003516 -->|"realizes"| n0e453a44
   n15e301fa -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n75345a2f
+  n959242df -->|"realizes"| n2758c11c
+  n959242df -->|"realizes"| n98006228
   n20272887 -->|"realizes"| ne737dac4
   na67fae6e -->|"realizes"| ne737dac4
   n15e301fa -->|"realizes"| n75345a2f
   n15e301fa -->|"realizes"| n2758c11c
+  n959242df -->|"realizes"| n0e453a44
   nc02e2235 -->|"realizes"| ne737dac4
   n15e301fa -->|"realizes"| n90ecb089
+  n959242df -->|"realizes"| n5e204df2
   nd86c68d9 -->|"realizes"| n795ca2b2
   n5967b240 -->|"realizes"| ne737dac4
   n1715cbdf -->|"realizes"| n692181ff
@@ -52,11 +61,17 @@ flowchart LR
   nd7f35967{{"late-player: 늦게 내는 플레이어가 있으면 어떻게 되는지?"}}
   nd7f35967 ==>|"answered by"| n692181ff
   nd7f35967 ==>|"answered by"| ne737dac4
+  n88bd51d0{{"many-best-of: 세 명 이상일 때도 삼세판을 하나?"}}
+  n88bd51d0 ==>|"answered by"| n2758c11c
+  nd666488e{{"many-winner: 여럿이 할 때 승자는 어떻게 가리나?"}}
+  nd666488e ==>|"answered by"| n0e453a44
   nc2627583{{"same-hand: 두 사람이 같은 손을 내면?"}}
   nc2627583 ==>|"answered by"| n5e204df2
   n9db3d9cf{{"three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
   n9db3d9cf ==>|"answered by"| n90ecb089
-  n0caecec2{{"OPEN three-or-more: 세 명 이상은 가위바위보를 할 수 없는지?"}}
+  n0caecec2{{"three-or-more: 세 명 이상은 가위바위보를 할 수 없는지?"}}
+  n0caecec2 ==>|"answered by"| n98006228
+  n0caecec2 ==>|"answered by"| n0e453a44
   n47d245c6{{"thumb-index: 엄지, 검지를 편 손은 무효인가?"}}
   n47d245c6 ==>|"answered by"| n90ecb089
   n36ace197{{"two-four-fingers: 2번째, 4번째 손가락을 편 손은 무엇인지?"}}
@@ -92,10 +107,18 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 ### draw
 
-> 두 사람이 같은 손을 낸 판. 승부가 나지 않아 다시 내고, 승부에 세지 않는다.
+> 낸 손의 분류가 둘로 나뉘지 않은 판 — 모두 같은 손이거나 세 손이 다 나온 경우. 승부가 나지 않아 다시 내고, 승부에 세지 않는다.
 
 - `README.md#비김` realizes — fresh · “두 사람이 같은 손을 내면 비긴다.”
 - `source:rps-02` realizes — fresh · “비김”
+- `source:rps-12` realizes — fresh · “손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고”
+
+### elimination
+
+> 여럿이 할 때 승자를 가리는 방식: 모든 플레이어가 동시에 낸 손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고, 승리한 집단끼리 다시 승부를 이어 나가기를 반복하며, 승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다. 두 명 승부도 이 규칙의 경우다.
+
+- `README.md#여럿이 할 때` realizes — fresh · “승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다.”
+- `source:rps-12` realizes — fresh · “승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함”
 
 ### fairness
 
@@ -106,10 +129,12 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 ### game
 
-> 가위바위보: 두 사람이 동시에 손 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이.
+> 두 명 이상이 동시에 손 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이.
 
+- `README.md#여럿이 할 때` realizes — fresh · “가위바위보는 두 명 이상이면 할 수 있다.”
 - `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
-- `README.md#가위바위보` realizes — fresh · “두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
+- `README.md#가위바위보` realizes — fresh · “두 명 이상이 동시에 손 모양 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
+- `source:rps-12` realizes — fresh · “가위바위보는 두명 이상이면 플레이 가능”
 
 ### hand
 
@@ -121,16 +146,17 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 ### match
 
-> 승부가 끝나는 방식. 단판은 비기지 않은 첫 판의 승자가, 삼세판은 먼저 두 판을 이긴 쪽이 이긴다.
+> 승부가 끝나는 방식. 단판은 비기지 않은 첫 판의 승자가, 삼세판은 먼저 두 판을 이긴 쪽이 이긴다. 세 명 이상일 때는 보통 한 판으로 승부를 낸다.
 
 - `README.md#판과 승부` realizes — fresh · “삼세판이면 먼저 두 판을 이긴 쪽이 이긴다.”
+- `source:rps-12` realizes — fresh · “세명 이상일때는 보통 한 판으로 승부를 낸다”
 - `source:rps-02` realizes — fresh · “승부 방식(단판/삼세판)”
 
 ### round
 
-> 두 사람이 손을 한 번씩 내는 단위.
+> 모든 플레이어가 손을 한 번씩 내는 데서 시작해, 승리한 집단끼리 되풀이하여 승자 한 명이 남을 때까지 이어지는 단위.
 
-- `README.md#판과 승부` realizes — fresh · “판은 두 사람이 손을 한 번씩 내는 단위다.”
+- `README.md#판과 승부` realizes — fresh · “판은 모든 플레이어가 손을 한 번씩 내는 데서 시작해 승자 한 명이 남을 때까지 이어지는 단위다.”
 - `source:rps-02` realizes — fresh · “판”
 
 ### simultaneity
@@ -154,10 +180,12 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — answered; answered by hand
 - **grounded** 모든 개념이 누군가 한 말과 글 양쪽에 근거하는가? — invariant (`check`)
 - **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — answered; answered by simultaneity, void
+- **many-best-of** 세 명 이상일 때도 삼세판을 하나? — answered; answered by match
+- **many-winner** 여럿이 할 때 승자는 어떻게 가리나? — answered; answered by elimination
 - **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw
 - **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`)
 - **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — answered; answered by hand
-- **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — OPEN
+- **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — answered; answered by game, elimination
 - **thumb-index** 엄지, 검지를 편 손은 무효인가? — answered; answered by hand
 - **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — answered; answered by hand
 - **void-round** 무효인 판은 어떻게 다루나? — answered; answered by void
@@ -217,3 +245,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 ### rps-11 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
 
 > 아니 그게 아니라 세 손만 존재한다에 따라서 넷째 손을 더할 수 없어지지 않아?
+
+### rps-12 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+
+> 둘뿐이라는 것은 잘못된 설명. 가위바위보는 두명 이상이면 플레이 가능. 그리고 모든 플레이어가 동시에 손을 냈을때 손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고, 승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함. 승리한 집단에 한 명이 남았을때 판의 승자가 나온 것으로 침. 이렇게 하면 2명 승부도 일반화된 규칙으로 설명 가능하다. 세명 이상일때는 보통 한 판으로 승부를 낸다. 3판 2선승제- 같은 것이 없다는 이야기.
