@@ -5,10 +5,10 @@
   "dst": "concept:fairness",
   "evidence": "공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.",
   "seen": {
-    "README.md#왜 공평한가": "91941042d17d",
+    "README.md#왜 공평한가": "405d77ea0de8",
     "concept:fairness": "091147f07961"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+    "delegated": "a section was appended after them: the title section spans the whole file and the last section gained a neighbour; both quoted sentences stand unchanged (technical, delegated)"
   }
 }

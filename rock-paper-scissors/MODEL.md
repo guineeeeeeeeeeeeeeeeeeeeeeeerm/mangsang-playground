@@ -27,8 +27,8 @@ flowchart LR
   n15e301fa -->|"realizes"| n9acb601e
   n0dbdf882 -->|"realizes"| n90ecb089
   n0dbdf882 -->|"realizes"| n98006228
-  n03a8a3a0 -.->|"realizes (stale)"| n9acb601e
-  n409300dd -.->|"realizes (stale)"| n98006228
+  n03a8a3a0 -->|"realizes"| n9acb601e
+  n409300dd -->|"realizes"| n98006228
   n20272887 -->|"realizes"| n90ecb089
   n15e301fa -->|"realizes"| n795ca2b2
   n15e301fa -->|"realizes"| n5e204df2
@@ -89,14 +89,14 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 > 어느 손을 내도 이길 확률과 질 확률이 같다는 성질. 손의 수가 아니라 이김이 순환한다는 데서 온다.
 
 - `source:rps-02` realizes — fresh · “왜 세 손이 공평한가(순환이라 우열이 없다)”
-- `README.md#왜 공평한가` realizes — stale · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
+- `README.md#왜 공평한가` realizes — fresh · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
 
 ### game
 
 > 가위바위보: 두 사람이 동시에 손 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이.
 
 - `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
-- `README.md#가위바위보` realizes — stale · “두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
+- `README.md#가위바위보` realizes — fresh · “두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
 
 ### hand
 
@@ -139,11 +139,11 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - **thumb-index** 엄지, 검지를 편 손은 무효인가? — answered; answered by hand
 - **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — answered; answered by hand
 - **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats
-- **what-game** 가위바위보는 어떤 놀이인가? — FAILED; answered by game
+- **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game
 - **what-hands** 낼 수 있는 손은 무엇이고 몇 가지인가? — answered; answered by hand
 - **what-simultaneous** 동시에 냈다는 것은 무슨 뜻인가? — answered; answered by simultaneity
 - **when-over** 승부는 언제 끝나나? — answered; answered by round, match
-- **why-fair** 왜 세 손 사이에 우열이 없나? — FAILED; answered by fairness, beats
+- **why-fair** 왜 세 손 사이에 우열이 없나? — answered; answered by fairness, beats
 
 ## Sources
 
