@@ -1,0 +1,15 @@
+{
+  "id": "R-143621d7",
+  "src": "README.md#용변",
+  "predicate": "realizes",
+  "dst": "concept:toilet-paper",
+  "evidence": "휴지걸이도 있어야해.",
+  "seen": {
+    "README.md#용변": "8e042731d553",
+    "concept:toilet-paper": "07222b74ff43"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

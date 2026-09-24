@@ -1,0 +1,15 @@
+{
+  "id": "R-fac0a1fd",
+  "src": "README.md#화장실",
+  "predicate": "realizes",
+  "dst": "concept:bathroom",
+  "evidence": "화장실에서 하는 일과 그 일에 필요한 것에 대한 설명이다.",
+  "seen": {
+    "README.md#화장실": "419b21a92049",
+    "concept:bathroom": "f9d7df780036"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

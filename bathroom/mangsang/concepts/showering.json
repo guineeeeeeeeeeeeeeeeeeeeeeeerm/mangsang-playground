@@ -1,0 +1,10 @@
+{
+  "name": "showering",
+  "means": "화장실에서 샤워를 하는 것도 가능해야해. 샤워를 하고 나면 공간에 습기가 차기 때문에 환기가 필요하다.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

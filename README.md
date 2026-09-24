@@ -6,6 +6,7 @@
 | 시나리오 | 상황 | 보기 |
 |---|---|---|
 | [rock-paper-scissors](rock-paper-scissors/) | 설명문 하나뿐인 프로젝트. 글의 절이 개념을 말하고, 개념이 질문에 답한다. 코드도 테스트도 없다 | [MODEL.md](rock-paper-scissors/MODEL.md) |
+| [bathroom](bathroom/) | 오너가 먼저 설명하고, 그 말이 원문이 된다. 하는 일(세수, 양치, 용변, 샤워)이 무엇을 필요로 하는지를 프로젝트 어휘에 더한 술어 `requires`로 잇는다 — mangsang의 기본 어휘에 없는 개념 사이 관계 | [MODEL.md](bathroom/MODEL.md) |
 
 ## 각 시나리오에 있는 것
 
@@ -30,4 +31,4 @@ python3 $M report --out MODEL.md
 python3 $M report --check MODEL.md                                       # 커밋한 페이지가 지금 기록과 같은가
 ```
 
-mangsang 1.6.0. `MODEL.md`가 기록보다 뒤처졌는지는 `python3 $M report --check MODEL.md`가 말한다(뒤처졌으면 exit 1).
+mangsang 1.7.4. `MODEL.md`가 기록보다 뒤처졌는지는 `python3 $M report --check MODEL.md`가 말한다(뒤처졌으면 exit 1).

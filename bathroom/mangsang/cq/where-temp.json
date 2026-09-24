@@ -1,0 +1,15 @@
+{
+  "id": "where-temp",
+  "text": "물 온도는 어디서 조절하나?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "faucet",
+      "shower"
+    ]
+  },
+  "declared": {
+    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.7.4"
+}

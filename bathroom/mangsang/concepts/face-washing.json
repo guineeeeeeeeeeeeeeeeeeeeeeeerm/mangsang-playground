@@ -1,0 +1,10 @@
+{
+  "name": "face-washing",
+  "means": "세면대에서 세수를 하는 일. 세수를 하기 위해서는 세면용 비누가 있어야 하고, 씻고 나면 물을 말려야 하므로 수건이 있어야 한다.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

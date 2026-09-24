@@ -1,0 +1,15 @@
+{
+  "id": "R-436f7598",
+  "src": "concept:toilet",
+  "predicate": "requires",
+  "dst": "concept:plunger",
+  "evidence": "변기가 막혔을 때 뚫기 위한 도구도 있어야해.",
+  "seen": {
+    "concept:toilet": "94c04db8ac8a",
+    "concept:plunger": "4a5b22bd06c5"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "R-989d3448",
+  "src": "README.md#샤워",
+  "predicate": "realizes",
+  "dst": "concept:shower",
+  "evidence": "샤워기와 연결된 수도관이 있어야 하고",
+  "seen": {
+    "README.md#샤워": "278c28e5af3a",
+    "concept:shower": "b8d47f55ad79"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

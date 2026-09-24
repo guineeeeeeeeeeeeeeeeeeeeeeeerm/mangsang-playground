@@ -1,0 +1,10 @@
+{
+  "name": "faucet",
+  "means": "세면대에는 물이 나와야 하므로 수도꼭지가 있어야해. 물 온도를 조절할 수 있어야 하고.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

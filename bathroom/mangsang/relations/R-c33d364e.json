@@ -1,0 +1,15 @@
+{
+  "id": "R-c33d364e",
+  "src": "concept:hand-washing",
+  "predicate": "requires",
+  "dst": "concept:towel",
+  "evidence": "씻고 나면 물을 말려야 하므로 수건이 있어야",
+  "seen": {
+    "concept:hand-washing": "53d415aa5d99",
+    "concept:towel": "9bf317ceef64"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

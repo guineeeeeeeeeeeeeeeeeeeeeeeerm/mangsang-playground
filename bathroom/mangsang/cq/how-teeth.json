@@ -1,0 +1,14 @@
+{
+  "id": "how-teeth",
+  "text": "양치하려면 무엇이 필요한가?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "tooth-brushing"
+    ]
+  },
+  "declared": {
+    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.7.4"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "R-a92ca13a",
+  "src": "source:bath-01",
+  "predicate": "realizes",
+  "dst": "concept:floor-drain",
+  "evidence": "샤워기가 설치된 곳에는 물이 내려가야하므로",
+  "seen": {
+    "source:bath-01": "10451c80c6f1",
+    "concept:floor-drain": "269eff343c01"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

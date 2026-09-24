@@ -1,0 +1,15 @@
+{
+  "id": "R-0a20f38f",
+  "src": "concept:bathroom",
+  "predicate": "requires",
+  "dst": "concept:face-washing",
+  "evidence": "세수하고",
+  "seen": {
+    "concept:bathroom": "f9d7df780036",
+    "concept:face-washing": "52e0afb6de03"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

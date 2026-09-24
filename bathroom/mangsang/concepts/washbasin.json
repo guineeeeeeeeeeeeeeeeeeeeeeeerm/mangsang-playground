@@ -1,0 +1,10 @@
+{
+  "name": "washbasin",
+  "means": "화장실에는 세면대가 있어. 여기서 손을 씻거나 세수를 하고, 양치를 할 수 있어.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

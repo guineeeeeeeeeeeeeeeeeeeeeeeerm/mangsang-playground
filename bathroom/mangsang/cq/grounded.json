@@ -1,0 +1,19 @@
+{
+  "id": "grounded",
+  "text": "모든 개념이 오너가 한 말과 글 양쪽에 근거하는가?",
+  "verify": {
+    "kind": "projection",
+    "media": {
+      "said": [
+        "source:bath-01"
+      ],
+      "written": [
+        "README.md#"
+      ]
+    }
+  },
+  "declared": {
+    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.7.4"
+}

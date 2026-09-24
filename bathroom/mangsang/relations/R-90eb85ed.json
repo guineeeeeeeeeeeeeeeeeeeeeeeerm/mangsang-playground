@@ -1,0 +1,15 @@
+{
+  "id": "R-90eb85ed",
+  "src": "concept:washbasin",
+  "predicate": "requires",
+  "dst": "concept:basin-drain",
+  "evidence": "수도관이 세면대 바닥에 연결되어 있어야",
+  "seen": {
+    "concept:washbasin": "60b5a5a9a0d2",
+    "concept:basin-drain": "695009da81f1"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

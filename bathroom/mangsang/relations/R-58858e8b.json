@@ -1,0 +1,15 @@
+{
+  "id": "R-58858e8b",
+  "src": "concept:washbasin",
+  "predicate": "requires",
+  "dst": "concept:faucet",
+  "evidence": "세면대에는 물이 나와야 하므로 수도꼭지가 있어야해.",
+  "seen": {
+    "concept:washbasin": "60b5a5a9a0d2",
+    "concept:faucet": "b1f8c09e375f"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

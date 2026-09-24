@@ -1,0 +1,15 @@
+{
+  "id": "R-e560b456",
+  "src": "README.md#바닥 배수",
+  "predicate": "realizes",
+  "dst": "concept:floor-drain",
+  "evidence": "바닥에 하수관과 연결된 영역이 있어야해.",
+  "seen": {
+    "README.md#바닥 배수": "59d4485c47d1",
+    "concept:floor-drain": "269eff343c01"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

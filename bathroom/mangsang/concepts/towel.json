@@ -1,0 +1,10 @@
+{
+  "name": "towel",
+  "means": "씻고 나면 물을 말려야 하므로 수건이 있어야 하고, 수건을 걸어둘 수 있는 수건 걸이가 필요해.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

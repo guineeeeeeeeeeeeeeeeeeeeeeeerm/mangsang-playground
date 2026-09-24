@@ -1,0 +1,15 @@
+{
+  "id": "R-0fc75ebc",
+  "src": "README.md#환기",
+  "predicate": "realizes",
+  "dst": "concept:ventilation",
+  "evidence": "외기와 면하는 창문이 있거나, 환풍구가 있어야해.",
+  "seen": {
+    "README.md#환기": "34ac2e9e9e07",
+    "concept:ventilation": "abb8e14e2163"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

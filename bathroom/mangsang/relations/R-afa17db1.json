@@ -1,0 +1,15 @@
+{
+  "id": "R-afa17db1",
+  "src": "concept:bathroom",
+  "predicate": "requires",
+  "dst": "concept:tooth-brushing",
+  "evidence": "양치하며",
+  "seen": {
+    "concept:bathroom": "f9d7df780036",
+    "concept:tooth-brushing": "6ec18e2ee3fe"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

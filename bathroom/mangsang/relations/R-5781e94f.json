@@ -1,0 +1,15 @@
+{
+  "id": "R-5781e94f",
+  "src": "README.md#세면대",
+  "predicate": "realizes",
+  "dst": "concept:hand-washing",
+  "evidence": "여기서 손을 씻거나",
+  "seen": {
+    "README.md#세면대": "821e0ee7688d",
+    "concept:hand-washing": "53d415aa5d99"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

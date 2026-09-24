@@ -1,0 +1,14 @@
+{
+  "id": "sections-owned",
+  "text": "글의 모든 절이 어떤 개념의 투영인가?",
+  "verify": {
+    "kind": "coverage",
+    "predicate": "realizes",
+    "anchors": "README.md#*",
+    "as": "src"
+  },
+  "declared": {
+    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.7.4"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "R-8dc0fe71",
+  "src": "concept:face-washing",
+  "predicate": "requires",
+  "dst": "concept:soap",
+  "evidence": "세수를 하기 위해서는 세면용 비누가 있어야",
+  "seen": {
+    "concept:face-washing": "52e0afb6de03",
+    "concept:soap": "852301a82480"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

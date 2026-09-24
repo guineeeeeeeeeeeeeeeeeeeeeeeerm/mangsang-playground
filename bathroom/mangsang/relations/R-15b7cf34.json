@@ -1,0 +1,15 @@
+{
+  "id": "R-15b7cf34",
+  "src": "source:bath-01",
+  "predicate": "realizes",
+  "dst": "concept:ventilation",
+  "evidence": "샤워를 하고 나면 공간에 습기가 차기 때문에",
+  "seen": {
+    "source:bath-01": "10451c80c6f1",
+    "concept:ventilation": "abb8e14e2163"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}

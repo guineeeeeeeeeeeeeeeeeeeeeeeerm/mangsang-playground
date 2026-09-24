@@ -1,0 +1,14 @@
+{
+  "id": "what-bathroom",
+  "text": "화장실은 무엇을 하는 공간인가?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "bathroom"
+    ]
+  },
+  "declared": {
+    "delegated": "the agent's draft question (bath-p1); the owner has not yet added or removed questions"
+  },
+  "written_by": "mangsang 1.7.4"
+}

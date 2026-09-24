@@ -1,0 +1,10 @@
+{
+  "name": "floor-drain",
+  "means": "샤워기가 설치된 곳에는 물이 내려가야하므로 바닥에 하수관과 연결된 영역이 있어야해.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

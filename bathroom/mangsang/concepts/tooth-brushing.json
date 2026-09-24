@@ -1,0 +1,10 @@
+{
+  "name": "tooth-brushing",
+  "means": "세면대에서 양치를 하는 일. 양치를 하기 위해서는 치약과 칫솔이 필요하다.",
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:bath-02",
+    "approval-of": "source:bath-p1"
+  },
+  "written_by": "mangsang 1.7.4"
+}

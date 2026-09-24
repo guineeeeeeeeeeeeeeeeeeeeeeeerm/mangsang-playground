@@ -1,0 +1,15 @@
+{
+  "id": "R-aedb22b1",
+  "src": "source:bath-01",
+  "predicate": "realizes",
+  "dst": "concept:door",
+  "evidence": "공간에 들어가고 나갈 수 있어야 하므로 문이 있어야해.",
+  "seen": {
+    "source:bath-01": "10451c80c6f1",
+    "concept:door": "b2705b1ffd68"
+  },
+  "confirmed": {
+    "delegated": "the agent tied the owner's sentences to the concepts they state, quoting each (technical, delegated); the requires edges are the owner's own 'to do X, Y must be there'"
+  },
+  "written_by": "mangsang 1.7.4"
+}
