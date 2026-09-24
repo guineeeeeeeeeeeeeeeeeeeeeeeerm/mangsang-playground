@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 9 concept(s), 21 relation(s), 16 question(s), 10 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 9 concept(s), 21 relation(s), 16 question(s), 11 source(s).
 
 ```mermaid
 flowchart LR
@@ -47,7 +47,8 @@ flowchart LR
   n5967b240 -->|"realizes"| ne737dac4
   n1715cbdf -->|"realizes"| n692181ff
   n57568aa8 -->|"realizes"| n692181ff
-  n5cc0e005{{"OPEN fourth-hand: 네 번째 손을 더하면 공평함이 유지되나?"}}
+  n5cc0e005{{"fourth-hand: 네 번째 손을 더하면 공평함이 유지되나?"}}
+  n5cc0e005 ==>|"answered by"| n90ecb089
   nd7f35967{{"late-player: 늦게 내는 플레이어가 있으면 어떻게 되는지?"}}
   nd7f35967 ==>|"answered by"| n692181ff
   nd7f35967 ==>|"answered by"| ne737dac4
@@ -150,7 +151,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 ## Questions
 
-- **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — OPEN
+- **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — answered; answered by hand
 - **grounded** 모든 개념이 누군가 한 말과 글 양쪽에 근거하는가? — invariant (`check`)
 - **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — answered; answered by simultaneity, void
 - **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw
@@ -212,3 +213,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 ### rps-10 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session), replying to rps-09
 
 > 맞아. 연결.
+
+### rps-11 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+
+> 아니 그게 아니라 세 손만 존재한다에 따라서 넷째 손을 더할 수 없어지지 않아?
