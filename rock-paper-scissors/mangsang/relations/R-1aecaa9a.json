@@ -1,0 +1,14 @@
+{
+  "id": "R-1aecaa9a",
+  "src": "README.md#비김",
+  "predicate": "realizes",
+  "dst": "concept:draw",
+  "evidence": "두 사람이 같은 손을 내면 비긴다.",
+  "seen": {
+    "README.md#비김": "6a713a42f2b7",
+    "concept:draw": "3a98484dae90"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

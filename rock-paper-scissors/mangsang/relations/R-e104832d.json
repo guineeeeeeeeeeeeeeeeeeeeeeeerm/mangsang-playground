@@ -1,0 +1,14 @@
+{
+  "id": "R-e104832d",
+  "src": "README.md#이김",
+  "predicate": "realizes",
+  "dst": "concept:beats",
+  "evidence": "이김은 순환한다: 가위는 보를 이기고, 바위는 가위를 이기고, 보는 바위를 이긴다.",
+  "seen": {
+    "README.md#이김": "7ba60a848360",
+    "concept:beats": "2b51c3f629b0"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

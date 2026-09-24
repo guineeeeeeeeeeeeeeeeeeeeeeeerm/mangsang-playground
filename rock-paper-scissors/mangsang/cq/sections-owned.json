@@ -1,0 +1,14 @@
+{
+  "id": "sections-owned",
+  "text": "글의 모든 절이 어떤 개념의 투영인가?",
+  "verify": {
+    "kind": "coverage",
+    "predicate": "realizes",
+    "anchors": "README.md#*",
+    "as": "src"
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

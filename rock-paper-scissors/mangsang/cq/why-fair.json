@@ -1,0 +1,15 @@
+{
+  "id": "why-fair",
+  "text": "왜 세 손 사이에 우열이 없나?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "fairness",
+      "beats"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fourth-hand",
+  "text": "네 번째 손을 더하면 공평함이 유지되나?",
+  "verify": {
+    "kind": "open"
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

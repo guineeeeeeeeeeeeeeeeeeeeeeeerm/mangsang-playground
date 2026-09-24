@@ -1,0 +1,14 @@
+{
+  "id": "R-2df7e406",
+  "src": "source:rps-01",
+  "predicate": "realizes",
+  "dst": "concept:hand",
+  "evidence": "가위바위보에 대해 설명하고",
+  "seen": {
+    "source:rps-01": "4ac238ede409",
+    "concept:hand": "8a2d6fd21c96"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

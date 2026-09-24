@@ -1,0 +1,14 @@
+{
+  "id": "R-5ea17474",
+  "src": "README.md#손",
+  "predicate": "realizes",
+  "dst": "concept:hand",
+  "evidence": "손은 셋이다: 가위, 바위, 보.",
+  "seen": {
+    "README.md#손": "aad5d2d481c5",
+    "concept:hand": "8a2d6fd21c96"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

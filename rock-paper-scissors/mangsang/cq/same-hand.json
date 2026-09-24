@@ -1,0 +1,14 @@
+{
+  "id": "same-hand",
+  "text": "두 사람이 같은 손을 내면?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "draw"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

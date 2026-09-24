@@ -1,0 +1,14 @@
+{
+  "id": "what-game",
+  "text": "가위바위보는 어떤 놀이인가?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "game"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

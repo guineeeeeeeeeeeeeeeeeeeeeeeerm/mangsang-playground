@@ -1,0 +1,19 @@
+{
+  "id": "grounded",
+  "text": "모든 개념이 누군가 한 말과 글 양쪽에 근거하는가?",
+  "verify": {
+    "kind": "projection",
+    "media": {
+      "said": [
+        "source:"
+      ],
+      "written": [
+        "README.md#"
+      ]
+    }
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

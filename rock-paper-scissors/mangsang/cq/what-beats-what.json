@@ -1,0 +1,14 @@
+{
+  "id": "what-beats-what",
+  "text": "무엇이 무엇을 이기나?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "beats"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

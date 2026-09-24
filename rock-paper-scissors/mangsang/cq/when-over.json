@@ -1,0 +1,15 @@
+{
+  "id": "when-over",
+  "text": "승부는 언제 끝나나?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "round",
+      "match"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

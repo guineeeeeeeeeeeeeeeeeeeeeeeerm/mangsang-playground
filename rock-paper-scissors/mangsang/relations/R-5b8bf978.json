@@ -1,0 +1,14 @@
+{
+  "id": "R-5b8bf978",
+  "src": "README.md#가위바위보",
+  "predicate": "realizes",
+  "dst": "concept:game",
+  "evidence": "두 사람이 동시에 손 모양 하나를 내고, 정해진 이김 관계로 승부를 가리는 놀이다.",
+  "seen": {
+    "README.md#가위바위보": "d890c58de042",
+    "concept:game": "b9b650066ce0"
+  },
+  "confirmed": {
+    "delegated": "the title section describes the game as a whole; the owner's request names it (technical, delegated)"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "R-23681137",
+  "src": "source:rps-02",
+  "predicate": "realizes",
+  "dst": "concept:fairness",
+  "evidence": "왜 세 손이 공평한가(순환이라 우열이 없다)",
+  "seen": {
+    "source:rps-02": "08b1e8d4d38b",
+    "concept:fairness": "091147f07961"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

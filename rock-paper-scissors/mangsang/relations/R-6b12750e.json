@@ -1,0 +1,14 @@
+{
+  "id": "R-6b12750e",
+  "src": "README.md#판과 승부",
+  "predicate": "realizes",
+  "dst": "concept:round",
+  "evidence": "판은 두 사람이 손을 한 번씩 내는 단위다.",
+  "seen": {
+    "README.md#판과 승부": "f72826270a71",
+    "concept:round": "204400c76f0d"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}

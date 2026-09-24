@@ -1,0 +1,14 @@
+{
+  "id": "what-hands",
+  "text": "낼 수 있는 손은 무엇이고 몇 가지인가?",
+  "verify": {
+    "kind": "answered-by",
+    "concepts": [
+      "hand"
+    ]
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-03"
+  }
+}

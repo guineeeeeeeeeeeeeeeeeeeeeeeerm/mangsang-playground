@@ -1,0 +1,14 @@
+{
+  "id": "R-ad1efade",
+  "src": "source:rps-02",
+  "predicate": "realizes",
+  "dst": "concept:match",
+  "evidence": "승부 방식(단판/삼세판)",
+  "seen": {
+    "source:rps-02": "08b1e8d4d38b",
+    "concept:match": "c7b288864099"
+  },
+  "confirmed": {
+    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+  }
+}
