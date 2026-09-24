@@ -1,0 +1,14 @@
+{
+  "id": "R-a234b3f9",
+  "src": "source:rps-09",
+  "predicate": "realizes",
+  "dst": "concept:void",
+  "evidence": "세 손 밖의 것을 내면 그 판은 무효인 판이 된다",
+  "seen": {
+    "source:rps-09": "5784f6f95b8b",
+    "concept:void": "ca4aeabfb183"
+  },
+  "confirmed": {
+    "delegated": "the owner approved the connection in rps-10 (technical, delegated)"
+  }
+}

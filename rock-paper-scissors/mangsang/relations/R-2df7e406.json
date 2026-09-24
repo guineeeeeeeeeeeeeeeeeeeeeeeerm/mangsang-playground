@@ -6,9 +6,9 @@
   "evidence": "가위바위보에 대해 설명하고",
   "seen": {
     "source:rps-01": "4ac238ede409",
-    "concept:hand": "8a2d6fd21c96"
+    "concept:hand": "fd345e6bc53e"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+    "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
   }
 }

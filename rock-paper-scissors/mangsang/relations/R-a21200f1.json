@@ -1,0 +1,14 @@
+{
+  "id": "R-a21200f1",
+  "src": "README.md#손",
+  "predicate": "realizes",
+  "dst": "concept:void",
+  "evidence": "세 손 밖의 것을 내면 그 판은 무효인 판이 된다.",
+  "seen": {
+    "README.md#손": "92f9519e0c23",
+    "concept:void": "ca4aeabfb183"
+  },
+  "confirmed": {
+    "delegated": "the owner approved the connection in rps-10 (technical, delegated)"
+  }
+}

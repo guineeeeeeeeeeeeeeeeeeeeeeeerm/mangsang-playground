@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 9 concept(s), 19 relation(s), 16 question(s), 8 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 9 concept(s), 21 relation(s), 16 question(s), 10 source(s).
 
 ```mermaid
 flowchart LR
@@ -25,6 +25,7 @@ flowchart LR
   n15e301fa["source:rps-02"]
   n57568aa8["source:rps-07"]
   nc02e2235["source:rps-08"]
+  na67fae6e["source:rps-09"]
   n903f5380 -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n2758c11c
   n15e301fa -->|"realizes"| n9acb601e
@@ -36,6 +37,8 @@ flowchart LR
   n15e301fa -->|"realizes"| n795ca2b2
   n15e301fa -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n75345a2f
+  n20272887 -->|"realizes"| ne737dac4
+  na67fae6e -->|"realizes"| ne737dac4
   n15e301fa -->|"realizes"| n75345a2f
   n15e301fa -->|"realizes"| n2758c11c
   nc02e2235 -->|"realizes"| ne737dac4
@@ -109,7 +112,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 ### hand
 
-> 가위바위보에서 한 사람이 한 판에 내는 것. 가위, 바위, 보 셋뿐이고 그 밖의 것은 무효다.
+> 가위바위보에서 한 사람이 한 판에 내는 것. 가위, 바위, 보 셋뿐이고, 세 손 밖의 것을 내면 그 판은 무효인 판이 된다.
 
 - `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
 - `README.md#손` realizes — fresh · “손은 셋이다: 가위, 바위, 보.”
@@ -140,6 +143,8 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 > 무효인 판: 판이 없었다는 것과 같은 식으로 보는 판. 동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.
 
+- `README.md#손` realizes — fresh · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다.”
+- `source:rps-09` realizes — fresh · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다”
 - `source:rps-08` realizes — fresh · “무효인 판이 된다는 것은 판이 없었다는 것과 같은 식으로 본다는 것.”
 - `README.md#무효` realizes — fresh · “동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.”
 
@@ -199,3 +204,11 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 ### rps-08 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
 
 > 동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다. 무효인 판이 된다는 것은 판이 없었다는 것과 같은 식으로 본다는 것.
+
+### rps-09 — Claude (claude-fable-5-1) (the same session, the agent's proposal), replying to rps-08
+
+> `hand`의 뜻에 제가 쓴 "그 밖의 것은 무효다"가 아직 있습니다. 이제 "무효"가 오너가 정의한 개념이 됐으니, 이 문장이 그 뜻(판이 없었던 것으로 본다)을 가리키는 게 맞는지는 오너의 판단입니다. 맞다면 `hand`의 뜻과 README 「손」 절을 "세 손 밖의 것을 내면 그 판은 무효인 판이 된다"로 고쳐 `void`와 잇겠습니다.
+
+### rps-10 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session), replying to rps-09
+
+> 맞아. 연결.

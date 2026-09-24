@@ -5,10 +5,10 @@
   "dst": "concept:hand",
   "evidence": "손은 셋이다: 가위, 바위, 보.",
   "seen": {
-    "README.md#손": "aad5d2d481c5",
-    "concept:hand": "8a2d6fd21c96"
+    "README.md#손": "92f9519e0c23",
+    "concept:hand": "fd345e6bc53e"
   },
   "confirmed": {
-    "delegated": "the sections quote the concepts they explain; the owner approved the concept list in rps-03 (technical, delegated)"
+    "delegated": "hand's meaning was revised to name the void round (rps-10); every quoted sentence still stands in its text; the title section spans the file (technical, delegated)"
   }
 }
