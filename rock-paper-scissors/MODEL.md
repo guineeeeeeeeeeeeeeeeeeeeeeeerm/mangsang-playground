@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 7 concept(s), 15 relation(s), 12 question(s), 4 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 7 concept(s), 15 relation(s), 13 question(s), 5 source(s).
 
 ```mermaid
 flowchart LR
@@ -38,9 +38,9 @@ flowchart LR
   nd7f35967{{"OPEN late-player: 늦게 내는 플레이어가 있으면 어떻게 되는지?"}}
   nc2627583{{"same-hand: 두 사람이 같은 손을 내면?"}}
   nc2627583 ==>|"answered by"| n5e204df2
-  n9db3d9cf{{"three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
-  n9db3d9cf ==>|"answered by"| n90ecb089
+  n9db3d9cf{{"OPEN three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
   n0caecec2{{"OPEN three-or-more: 세 명 이상은 가위바위보를 할 수 없는지?"}}
+  n36ace197{{"OPEN two-four-fingers: 2번째, 4번째 손가락을 편 손은 무엇인지?"}}
   na08501d4{{"what-beats-what: 무엇이 무엇을 이기나?"}}
   na08501d4 ==>|"answered by"| n795ca2b2
   n72ff044d{{"what-game: 가위바위보는 어떤 놀이인가?"}}
@@ -116,8 +116,9 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — OPEN
 - **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw
 - **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`)
-- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — answered; answered by hand
+- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — OPEN
 - **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — OPEN
+- **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — OPEN
 - **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats
 - **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game
 - **what-hands** 낼 수 있는 손은 무엇이고 몇 가지인가? — answered; answered by hand
@@ -145,3 +146,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 > - 세 명 이상은 가위바위보를 할 수 없는지?
 > - 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?
 > - 늦게 내는 플레이어가 있으면 어떻게 되는지?
+
+### rps-05 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+
+> 2번째, 4번째 손가락을 편 손은 무엇인지?

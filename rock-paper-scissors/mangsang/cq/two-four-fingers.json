@@ -1,0 +1,11 @@
+{
+  "id": "two-four-fingers",
+  "text": "2번째, 4번째 손가락을 편 손은 무엇인지?",
+  "verify": {
+    "kind": "open"
+  },
+  "declared": {
+    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
+    "approved-in": "source:rps-05"
+  }
+}

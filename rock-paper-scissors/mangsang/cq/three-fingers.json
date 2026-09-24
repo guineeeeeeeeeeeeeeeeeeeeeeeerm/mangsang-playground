@@ -2,13 +2,9 @@
   "id": "three-fingers",
   "text": "엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?",
   "verify": {
-    "kind": "answered-by",
-    "concepts": [
-      "hand"
-    ]
+    "kind": "open"
   },
   "declared": {
-    "by": "guineeeeeeeeeeeeeeeeeeeeeeeerm",
-    "approved-in": "source:rps-04"
+    "delegated": "the model's only answer was 무효, from a sentence the agent wrote (세 손 밖의 것은 무효), not one the owner decided; rps-05 asks the same kind of question — which shapes count as which hand is undecided"
   }
 }
