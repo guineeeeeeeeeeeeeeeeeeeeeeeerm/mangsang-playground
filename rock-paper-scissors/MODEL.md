@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
+Rendered from `mangsang/` by mangsang 1.6.0; the record is the source, this page is not. 10 concept(s), 27 relation(s), 18 question(s), 12 source(s).
 
 ```mermaid
 flowchart LR
@@ -23,39 +23,18 @@ flowchart LR
   n75345a2f(["concept:round"])
   n692181ff(["concept:simultaneity"])
   ne737dac4(["concept:void"])
-  n0dbdf882["source:rps-01"]
-  n15e301fa["source:rps-02"]
-  n57568aa8["source:rps-07"]
-  nc02e2235["source:rps-08"]
-  na67fae6e["source:rps-09"]
-  n959242df["source:rps-12"]
   n903f5380 -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n2758c11c
-  n15e301fa -->|"realizes"| n9acb601e
   n5a003516 -->|"realizes"| n98006228
-  n0dbdf882 -->|"realizes"| n90ecb089
-  n0dbdf882 -->|"realizes"| n98006228
   n03a8a3a0 -->|"realizes"| n9acb601e
   n409300dd -->|"realizes"| n98006228
   n20272887 -->|"realizes"| n90ecb089
-  n15e301fa -->|"realizes"| n795ca2b2
   n5a003516 -->|"realizes"| n0e453a44
-  n15e301fa -->|"realizes"| n5e204df2
   n84fab4bc -->|"realizes"| n75345a2f
-  n959242df -->|"realizes"| n2758c11c
-  n959242df -->|"realizes"| n98006228
   n20272887 -->|"realizes"| ne737dac4
-  na67fae6e -->|"realizes"| ne737dac4
-  n15e301fa -->|"realizes"| n75345a2f
-  n15e301fa -->|"realizes"| n2758c11c
-  n959242df -->|"realizes"| n0e453a44
-  nc02e2235 -->|"realizes"| ne737dac4
-  n15e301fa -->|"realizes"| n90ecb089
-  n959242df -->|"realizes"| n5e204df2
   nd86c68d9 -->|"realizes"| n795ca2b2
   n5967b240 -->|"realizes"| ne737dac4
   n1715cbdf -->|"realizes"| n692181ff
-  n57568aa8 -->|"realizes"| n692181ff
   n5cc0e005{{"fourth-hand: 네 번째 손을 더하면 공평함이 유지되나?"}}
   n5cc0e005 ==>|"answered by"| n90ecb089
   nd7f35967{{"late-player: 늦게 내는 플레이어가 있으면 어떻게 되는지?"}}
@@ -94,7 +73,7 @@ flowchart LR
   n321d87c5 ==>|"answered by"| n795ca2b2
 ```
 
-Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet); a dotted edge is a relation whose end moved since it was confirmed.
+Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet); a dotted edge is a relation whose end moved since it was confirmed. Sources are not drawn; each concept lists the words that ground it below.
 
 ## Concepts
 
@@ -102,99 +81,119 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 > 손 사이의 이김 관계. 가위는 보를, 바위는 가위를, 보는 바위를 이기며 순환한다 — 각 손은 하나를 이기고 하나에게 진다.
 
-- `source:rps-02` realizes — fresh · “이김 관계(순환)”
-- `README.md#이김` realizes — fresh · “이김은 순환한다: 가위는 보를 이기고, 바위는 가위를 이기고, 보는 바위를 이긴다.”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+
+- `source:rps-02` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “이김 관계(순환)”
+- `README.md#이김` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “이김은 순환한다: 가위는 보를 이기고, 바위는 가위를 이기고, 보는 바위를 이긴다.”
 
 ### draw
 
 > 낸 손의 분류가 둘로 나뉘지 않은 판 — 모두 같은 손이거나 세 손이 다 나온 경우. 승부가 나지 않아 다시 내고, 승부에 세지 않는다.
 
-- `README.md#비김` realizes — fresh · “두 사람이 같은 손을 내면 비긴다.”
-- `source:rps-02` realizes — fresh · “비김”
-- `source:rps-12` realizes — fresh · “손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+
+- `README.md#비김` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “두 사람이 같은 손을 내면 비긴다.”
+- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “비김”
+- `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고”
 
 ### elimination
 
 > 여럿이 할 때 승자를 가리는 방식: 모든 플레이어가 동시에 낸 손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고, 승리한 집단끼리 다시 승부를 이어 나가기를 반복하며, 승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다. 두 명 승부도 이 규칙의 경우다.
 
-- `README.md#여럿이 할 때` realizes — fresh · “승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다.”
-- `source:rps-12` realizes — fresh · “승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+
+- `README.md#여럿이 할 때` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “승리한 집단에 한 명이 남았을 때 판의 승자가 나온 것으로 친다.”
+- `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함”
 
 ### fairness
 
 > 어느 손을 내도 이길 확률과 질 확률이 같다는 성질. 손의 수가 아니라 이김이 순환한다는 데서 온다.
 
-- `source:rps-02` realizes — fresh · “왜 세 손이 공평한가(순환이라 우열이 없다)”
-- `README.md#왜 공평한가` realizes — fresh · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+
+- `source:rps-02` realizes — fresh · delegated: the sections quote the concepts they explain; the owner approved the concept … · “왜 세 손이 공평한가(순환이라 우열이 없다)”
+- `README.md#왜 공평한가` realizes — fresh · delegated: a section was appended after them: the title section spans the whole file and… · “공평함은 손의 수가 아니라 이김이 순환한다는 데서 온다.”
 
 ### game
 
 > 두 명 이상이 동시에 손 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이.
 
-- `README.md#여럿이 할 때` realizes — fresh · “가위바위보는 두 명 이상이면 할 수 있다.”
-- `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
-- `README.md#가위바위보` realizes — fresh · “두 명 이상이 동시에 손 모양 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
-- `source:rps-12` realizes — fresh · “가위바위보는 두명 이상이면 플레이 가능”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+
+- `README.md#여럿이 할 때` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “가위바위보는 두 명 이상이면 할 수 있다.”
+- `source:rps-01` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “가위바위보에 대해 설명하고”
+- `README.md#가위바위보` realizes — fresh · delegated: mangsang 1.6.0 cuts the title heading's section at the next heading instead o… · re-confirmed 1 time(s) · “두 명 이상이 동시에 손 모양 하나씩 내고, 정해진 이김 관계로 승부를 가리는 놀이다.”
+- `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “가위바위보는 두명 이상이면 플레이 가능”
 
 ### hand
 
 > 가위바위보에서 한 사람이 한 판에 내는 것. 가위, 바위, 보 셋뿐이고, 세 손 밖의 것을 내면 그 판은 무효인 판이 된다.
 
-- `source:rps-01` realizes — fresh · “가위바위보에 대해 설명하고”
-- `README.md#손` realizes — fresh · “손은 셋이다: 가위, 바위, 보.”
-- `source:rps-02` realizes — fresh · “손(가위·바위·보)”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-10`)
+
+- `source:rps-01` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “가위바위보에 대해 설명하고”
+- `README.md#손` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “손은 셋이다: 가위, 바위, 보.”
+- `source:rps-02` realizes — fresh · delegated: hand's meaning was revised to name the void round (rps-10); every quoted sent… · “손(가위·바위·보)”
 
 ### match
 
 > 승부가 끝나는 방식. 단판은 비기지 않은 첫 판의 승자가, 삼세판은 먼저 두 판을 이긴 쪽이 이긴다. 세 명 이상일 때는 보통 한 판으로 승부를 낸다.
 
-- `README.md#판과 승부` realizes — fresh · “삼세판이면 먼저 두 판을 이긴 쪽이 이긴다.”
-- `source:rps-12` realizes — fresh · “세명 이상일때는 보통 한 판으로 승부를 낸다”
-- `source:rps-02` realizes — fresh · “승부 방식(단판/삼세판)”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+
+- `README.md#판과 승부` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “삼세판이면 먼저 두 판을 이긴 쪽이 이긴다.”
+- `source:rps-12` realizes — fresh · delegated: the sections and the concepts are the owner's words from rps-12 (technical, d… · “세명 이상일때는 보통 한 판으로 승부를 낸다”
+- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “승부 방식(단판/삼세판)”
 
 ### round
 
 > 모든 플레이어가 손을 한 번씩 내는 데서 시작해, 승리한 집단끼리 되풀이하여 승자 한 명이 남을 때까지 이어지는 단위.
 
-- `README.md#판과 승부` realizes — fresh · “판은 모든 플레이어가 손을 한 번씩 내는 데서 시작해 승자 한 명이 남을 때까지 이어지는 단위다.”
-- `source:rps-02` realizes — fresh · “판”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+
+- `README.md#판과 승부` realizes — fresh · delegated: the round's sentence now covers any number of players, as the owner said in r… · “판은 모든 플레이어가 손을 한 번씩 내는 데서 시작해 승자 한 명이 남을 때까지 이어지는 단위다.”
+- `source:rps-02` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “판”
 
 ### simultaneity
 
 > 동시에 낸다는 것: '상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립하는 것. 서로 상대방이 무엇을 냈는지 알지 못한 채 내야 승부가 공정하기 때문에 중요하다.
 
-- `README.md#동시` realizes — fresh · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 동시에 낸 것이다.”
-- `source:rps-07` realizes — fresh · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 이는 '동시에' 냈다고 할 수 있어.”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-07`)
+
+- `README.md#동시` realizes — fresh · delegated: a section was appended after them; the quoted sentences stand unchanged (tech… · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 동시에 낸 것이다.”
+- `source:rps-07` realizes — fresh · delegated: the section is the owner's own words from rps-07 (technical, delegated) · “'상대가 낸 손이 무엇인지 인지하기 전에 내 손을 낸다'가 모두에게 성립한다면 이는 '동시에' 냈다고 할 수 있어.”
 
 ### void
 
 > 무효인 판: 판이 없었다는 것과 같은 식으로 보는 판. 동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.
 
-- `README.md#손` realizes — fresh · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다.”
-- `source:rps-09` realizes — fresh · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다”
-- `source:rps-08` realizes — fresh · “무효인 판이 된다는 것은 판이 없었다는 것과 같은 식으로 본다는 것.”
-- `README.md#무효` realizes — fresh · “동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.”
+declared by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-08`)
+
+- `README.md#손` realizes — fresh · delegated: the owner approved the connection in rps-10 (technical, delegated) · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다.”
+- `source:rps-09` realizes — fresh · delegated: the owner approved the connection in rps-10 (technical, delegated) · “세 손 밖의 것을 내면 그 판은 무효인 판이 된다”
+- `source:rps-08` realizes — fresh · delegated: the section is the owner's own words from rps-08 (technical, delegated) · “무효인 판이 된다는 것은 판이 없었다는 것과 같은 식으로 본다는 것.”
+- `README.md#무효` realizes — fresh · delegated: the concepts' meanings were widened from two players to any number (rps-12); … · “동시가 성립하지 않으면 승패의 여부와 상관 없이 무효인 판이 된다.”
 
 ## Questions
 
-- **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — answered; answered by hand
-- **grounded** 모든 개념이 누군가 한 말과 글 양쪽에 근거하는가? — invariant (`check`)
-- **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — answered; answered by simultaneity, void
-- **many-best-of** 세 명 이상일 때도 삼세판을 하나? — answered; answered by match
-- **many-winner** 여럿이 할 때 승자는 어떻게 가리나? — answered; answered by elimination
-- **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw
-- **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`)
-- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — answered; answered by hand
-- **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — answered; answered by game, elimination
-- **thumb-index** 엄지, 검지를 편 손은 무효인가? — answered; answered by hand
-- **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — answered; answered by hand
-- **void-round** 무효인 판은 어떻게 다루나? — answered; answered by void
-- **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats
-- **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game
-- **what-hands** 낼 수 있는 손은 무엇이고 몇 가지인가? — answered; answered by hand
-- **what-simultaneous** 동시에 냈다는 것은 무슨 뜻인가? — answered; answered by simultaneity
-- **when-over** 승부는 언제 끝나나? — answered; answered by round, match
-- **why-fair** 왜 세 손 사이에 우열이 없나? — answered; answered by fairness, beats
+- **fourth-hand** 네 번째 손을 더하면 공평함이 유지되나? — answered; answered by hand · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-11`)
+- **grounded** 모든 개념이 누군가 한 말과 글 양쪽에 근거하는가? — invariant (`check`) · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **late-player** 늦게 내는 플레이어가 있으면 어떻게 되는지? — answered; answered by simultaneity, void · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-08`)
+- **many-best-of** 세 명 이상일 때도 삼세판을 하나? — answered; answered by match · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+- **many-winner** 여럿이 할 때 승자는 어떻게 가리나? — answered; answered by elimination · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+- **same-hand** 두 사람이 같은 손을 내면? — answered; answered by draw · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`) · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — answered; answered by hand · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-07`)
+- **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — answered; answered by game, elimination · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-12`)
+- **thumb-index** 엄지, 검지를 편 손은 무효인가? — answered; answered by hand · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-07`)
+- **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — answered; answered by hand · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-07`)
+- **void-round** 무효인 판은 어떻게 다루나? — answered; answered by void · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-08`)
+- **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **what-hands** 낼 수 있는 손은 무엇이고 몇 가지인가? — answered; answered by hand · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **what-simultaneous** 동시에 냈다는 것은 무슨 뜻인가? — answered; answered by simultaneity · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-07`)
+- **when-over** 승부는 언제 끝나나? — answered; answered by round, match · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
+- **why-fair** 왜 세 손 사이에 우열이 없나? — answered; answered by fairness, beats · by guineeeeeeeeeeeeeeeeeeeeeeeerm (approved in `source:rps-03`)
 
 ## Sources
 
@@ -207,22 +206,18 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 > - **개념**: 손(가위·바위·보), 이김 관계(순환), 비김, 판, 승부 방식(단판/삼세판).
 > - **질문(CQ)**: "무엇이 무엇을 이기나?", "같은 손이면?", "왜 세 손이 공평한가(순환이라 우열이 없다)?", "승부는 언제 끝나나?" 등.
 
-### rps-03 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session), replying to rps-02
-
-> 좋아 그렇게 가자
-
-### rps-04 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session, after the skeleton was explained)
+### rps-04 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session, after the skeleton was explained) — grounds nothing yet
 
 > 다음의 질문을 더하고 싶어.
 > - 세 명 이상은 가위바위보를 할 수 없는지?
 > - 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?
 > - 늦게 내는 플레이어가 있으면 어떻게 되는지?
 
-### rps-05 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+### rps-05 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session) — grounds nothing yet
 
 > 2번째, 4번째 손가락을 편 손은 무엇인지?
 
-### rps-06 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+### rps-06 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session) — grounds nothing yet
 
 > 그럼 엄지, 검지도 무효야? 손 모양 판정에 대한 내용이 있어?
 
@@ -238,14 +233,17 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 
 > `hand`의 뜻에 제가 쓴 "그 밖의 것은 무효다"가 아직 있습니다. 이제 "무효"가 오너가 정의한 개념이 됐으니, 이 문장이 그 뜻(판이 없었던 것으로 본다)을 가리키는 게 맞는지는 오너의 판단입니다. 맞다면 `hand`의 뜻과 README 「손」 절을 "세 손 밖의 것을 내면 그 판은 무효인 판이 된다"로 고쳐 `void`와 잇겠습니다.
 
-### rps-10 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session), replying to rps-09
-
-> 맞아. 연결.
-
-### rps-11 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+### rps-11 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session) — grounds nothing yet
 
 > 아니 그게 아니라 세 손만 존재한다에 따라서 넷째 손을 더할 수 없어지지 않아?
 
 ### rps-12 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
 
 > 둘뿐이라는 것은 잘못된 설명. 가위바위보는 두명 이상이면 플레이 가능. 그리고 모든 플레이어가 동시에 손을 냈을때 손의 분류가 둘로 나뉘는 경우에만 승부가 난 것으로 보고, 승리한 집단끼리 다시 승부를 이어나가는 것을 반복해야함. 승리한 집단에 한 명이 남았을때 판의 승자가 나온 것으로 침. 이렇게 하면 2명 승부도 일반화된 규칙으로 설명 가능하다. 세명 이상일때는 보통 한 판으로 승부를 낸다. 3판 2선승제- 같은 것이 없다는 이야기.
+
+## Approvals
+
+Said to approve, not to describe: each grounds no relation and is cited only by declarations signed on it.
+
+- **rps-03** — guineeeeeeeeeeeeeeeeeeeeeeeerm, replying to rps-02 (Claude (claude-fable-5-1)): “좋아 그렇게 가자” — approves `concept:beats`, `concept:fairness`, `cq:grounded`, `cq:same-hand`, `cq:sections-owned`, `cq:what-beats-what`, `cq:what-game`, `cq:what-hands`, `cq:when-over`, `cq:why-fair`
+- **rps-10** — guineeeeeeeeeeeeeeeeeeeeeeeerm, replying to rps-09 (Claude (claude-fable-5-1)): “맞아. 연결.” — approves `concept:hand`

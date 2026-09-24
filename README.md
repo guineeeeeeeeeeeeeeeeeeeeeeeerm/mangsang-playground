@@ -27,6 +27,7 @@ python3 $M cq add what-beats-what --text "..." --verify '{"kind": "answered-by",
 python3 $M confirm proposals.json --delegated "..."                      # 절 -> 개념, 원문 -> 개념 관계, 인용과 함께
 python3 $M check && python3 $M cq && python3 $M impact                   # 모두 초록
 python3 $M report --out MODEL.md
+python3 $M report --check MODEL.md                                       # 커밋한 페이지가 지금 기록과 같은가
 ```
 
-mangsang 1.5.0.
+mangsang 1.6.0. `MODEL.md`가 기록보다 뒤처졌는지는 `python3 $M report --check MODEL.md`가 말한다(뒤처졌으면 exit 1).
