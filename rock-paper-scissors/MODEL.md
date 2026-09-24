@@ -1,6 +1,6 @@
 # rock-paper-scissors — the net
 
-Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 7 concept(s), 15 relation(s), 13 question(s), 5 source(s).
+Rendered from `mangsang/` by `mangsang report`; the record is the source, this page is not. 7 concept(s), 15 relation(s), 14 question(s), 6 source(s).
 
 ```mermaid
 flowchart LR
@@ -40,6 +40,7 @@ flowchart LR
   nc2627583 ==>|"answered by"| n5e204df2
   n9db3d9cf{{"OPEN three-fingers: 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지?"}}
   n0caecec2{{"OPEN three-or-more: 세 명 이상은 가위바위보를 할 수 없는지?"}}
+  n47d245c6{{"OPEN thumb-index: 엄지, 검지를 편 손은 무효인가?"}}
   n36ace197{{"OPEN two-four-fingers: 2번째, 4번째 손가락을 편 손은 무엇인지?"}}
   na08501d4{{"what-beats-what: 무엇이 무엇을 이기나?"}}
   na08501d4 ==>|"answered by"| n795ca2b2
@@ -118,6 +119,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 - **sections-owned** 글의 모든 절이 어떤 개념의 투영인가? — invariant (`check`)
 - **three-fingers** 엄지, 중지, 약지 세 손가락을 내면 무슨 손인지? — OPEN
 - **three-or-more** 세 명 이상은 가위바위보를 할 수 없는지? — OPEN
+- **thumb-index** 엄지, 검지를 편 손은 무효인가? — OPEN
 - **two-four-fingers** 2번째, 4번째 손가락을 편 손은 무엇인지? — OPEN
 - **what-beats-what** 무엇이 무엇을 이기나? — answered; answered by beats
 - **what-game** 가위바위보는 어떤 놀이인가? — answered; answered by game
@@ -150,3 +152,7 @@ Rounded nodes are concepts, hexagons are questions (OPEN: nothing answers it yet
 ### rps-05 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
 
 > 2번째, 4번째 손가락을 편 손은 무엇인지?
+
+### rps-06 — guineeeeeeeeeeeeeeeeeeeeeeeerm (the same session)
+
+> 그럼 엄지, 검지도 무효야? 손 모양 판정에 대한 내용이 있어?
